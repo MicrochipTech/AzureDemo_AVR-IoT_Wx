@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tls_cert_flash_tool", "tls_cert_flash_tool\tls_cert_flash_tool.vcxproj", "{61535AA3-E410-4A60-ACD1-EECB960ABB69}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug_I2C|Win32 = Debug_I2C|Win32
+		Debug_UART|Win32 = Debug_UART|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{61535AA3-E410-4A60-ACD1-EECB960ABB69}.Debug_I2C|Win32.ActiveCfg = Debug_I2C|Win32
+		{61535AA3-E410-4A60-ACD1-EECB960ABB69}.Debug_I2C|Win32.Build.0 = Debug_I2C|Win32
+		{61535AA3-E410-4A60-ACD1-EECB960ABB69}.Debug_UART|Win32.ActiveCfg = Debug_UART|Win32
+		{61535AA3-E410-4A60-ACD1-EECB960ABB69}.Debug_UART|Win32.Build.0 = Debug_UART|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="root_certificate_downloader" />
+		<Option platforms="Windows;" />
+		<Option default_target="Debug_UART Win32" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug_UART Win32">
+				<Option platforms="Windows;" />
+				<Option output="Debug_UART/root_certificate_downloader" prefix_auto="1" extension_auto="1" />
+				<Option object_output="Debug_UART/objs" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option use_console_runner="0" />
+				<Option parameters="-port 27 -n 10  ..\binary\BaltimoreCyberTrustRoot.cer ..\binary\DigiCert.cer ..\binary\DigiCertSHA2.cer ..\binary\EnTrust.cer ..\binary\GeoTrust.cer ..\binary\GlobalSignRoot.cer ..\binary\NMA_Root.cer ..\binary\PROWL_Root.cer ..\binary\QuoVadis_Root.cer ..\binary\VeriSign.cer     -no_wait        -aardvark 0     -vflash_path debugimage.bin -bf_bin  ../../../boot_firmware/release3A0/boot_firmware.bin    -pf_bin  ../../../programmer_firmware/release3A0/programmer_firmware.bin -df_bin  ../../../downloader_firmware/release3A0/downloader_firmware.bin -e" />
+				<Compiler>
+					<Add option="-Weffc++" />
+					<Add option="-Wall" />
+					<Add option="-g" />
+					<Add option="-DWIN32" />
+					<Add option="-D_DEBUG" />
+					<Add option="-D_CONSOLE" />
+					<Add option="-DCONF_WINC_USE_UART" />
+					<Add option="-D_CRT_SECURE_NO_WARNINGS" />
+					<Add option="-DPROFILING" />
+					<Add option="-DOTA_GENx" />
+					<Add directory="../crypto_lib/include" />
+					<Add directory="../../common/ota" />
+					<Add directory="../../host_drv/spi_flash" />
+					<Add directory="../../common/spi_flash_mapping" />
+					<Add directory="../../common/common_values" />
+					<Add directory="../../" />
+					<Add directory="../programmer" />
+					<Add directory="../../host_drv" />
+					<Add directory="../../common/root_cert" />
+				</Compiler>
+				<Linker>
+					<Add library="C:/Program Files (x86)/Windows Kits/8.1/Lib/winv6.3/um/x86/SetupAPI.Lib" />
+					<Add library="../crypto_lib/lib/crypto.lib" />
+					<Add directory="../crypto_lib/lib" />
+				</Linker>
+			</Target>
+			<Target title="Debug_I2C Win32">
+				<Option platforms="Windows;" />
+				<Option output="Debug_I2C/root_certificate_downloader" prefix_auto="1" extension_auto="1" />
+				<Option object_output="Debug_I2C/objs" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option use_console_runner="0" />
+				<Compiler>
+					<Add option="-Weffc++" />
+					<Add option="-Wall" />
+					<Add option="-g" />
+					<Add option="-DWIN32" />
+					<Add option="-D_DEBUG" />
+					<Add option="-D_CONSOLE" />
+					<Add option="-DCONF_WINC_USE_I2C" />
+					<Add option="-D_CRT_SECURE_NO_WARNINGS" />
+					<Add option="-DPROFILING" />
+					<Add option="-DOTA_GENx" />
+					<Add option="-DDESKTOP_HOST_APP" />
+					<Add directory="../crypto_lib/include" />
+					<Add directory="../../common/ota" />
+					<Add directory="../../common/root_cert" />
+					<Add directory="../../host_drv/spi_flash" />
+					<Add directory="../../common/spi_flash_mapping" />
+					<Add directory="../../" />
+					<Add directory="../programmer" />
+					<Add directory="../../host_drv" />
+				</Compiler>
+				<Linker>
+					<Add library="C:/Program Files (x86)/Windows Kits/8.1/Lib/winv6.3/um/x86/SetupAPI.Lib" />
+					<Add library="../crypto_lib/lib/crypto.lib" />
+					<Add directory="../crypto_lib/lib" />
+				</Linker>
+			</Target>
+			<Target title="Debug_OTA Win32">
+				<Option platforms="Windows;" />
+				<Option output="Debug_OTA/root_certificate_downloader" prefix_auto="1" extension_auto="1" />
+				<Option object_output="Debug_OTA/objs" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option use_console_runner="0" />
+				<Compiler>
+					<Add option="-Weffc++" />
+					<Add option="-Wall" />
+					<Add option="-g" />
+					<Add option="-DWIN32" />
+					<Add option="-D_DEBUG" />
+					<Add option="-D_CONSOLE" />
+					<Add option="-DCONF_WINC_USE_I2C" />
+					<Add option="-D_CRT_SECURE_NO_WARNINGS" />
+					<Add option="-DPROFILING" />
+					<Add option="-DOTA_GEN" />
+					<Add directory="../crypto_lib/include" />
+					<Add directory="../../common/ota" />
+					<Add directory="../../common/root_cert" />
+					<Add directory="../../host_drv/spi_flash" />
+					<Add directory="../../common/spi_flash_mapping" />
+					<Add directory="../../" />
+					<Add directory="../programmer" />
+					<Add directory="../../host_drv" />
+				</Compiler>
+				<Linker>
+					<Add library="C:/Program Files (x86)/Windows Kits/8.1/Lib/winv6.3/um/x86/SetupAPI.Lib" />
+					<Add library="../crypto_lib/lib/crypto.lib" />
+					<Add directory="../crypto_lib/lib" />
+				</Linker>
+			</Target>
+		</Build>
+		<VirtualTargets>
+			<Add alias="All" targets="Debug_UART Win32;Debug_I2C Win32;" />
+		</VirtualTargets>
+		<Linker>
+			<Add option="-static" />
+		</Linker>
+		<Unit filename="../../common/ota/ota_hdr.h" />
+		<Unit filename="../../common/root_cert/pem.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../common/root_cert/pem.h" />
+		<Unit filename="../../common/root_cert/root_setup.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../common/root_cert/root_setup.h" />
+		<Unit filename="../../common/spi_flash_mapping/spi_flash_map.h" />
+		<Unit filename="../../host_drv/bsp/include/nm_bsp.h" />
+		<Unit filename="../../host_drv/bsp/include/nm_bsp_win32.h" />
+		<Unit filename="../../host_drv/bsp/source/nm_bsp_win32.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../host_drv/bus_wrapper/include/nm_bus_wrapper.h" />
+		<Unit filename="../../host_drv/bus_wrapper/source/aardvarc/aardvark.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../host_drv/bus_wrapper/source/nm_bus_wrapper_aardvarc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../host_drv/bus_wrapper/source/nm_bus_wrapper_win_uart.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../host_drv/common/include/nm_common.h" />
+		<Unit filename="../../host_drv/common/source/nm_common.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../host_drv/driver/source/nmasic.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../host_drv/driver/source/nmasic.h" />
+		<Unit filename="../../host_drv/driver/source/nmbus.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../host_drv/driver/source/nmbus.h" />
+		<Unit filename="../../host_drv/driver/source/nmdrv.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../host_drv/driver/source/nmi2c.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../host_drv/driver/source/nmi2c.h" />
+		<Unit filename="../../host_drv/driver/source/nmspi.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../host_drv/driver/source/nmspi.h" />
+		<Unit filename="../../host_drv/driver/source/nmuart.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../host_drv/driver/source/nmuart.h" />
+		<Unit filename="../../host_drv/spi_flash/include/spi_flash.h" />
+		<Unit filename="../../host_drv/spi_flash/source/spi_flash.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../programmer/firmware_addresses.h" />
+		<Unit filename="../programmer/programmer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../programmer/programmer.h" />
+		<Unit filename="../programmer/programmer_ota_root.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="source/main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<debugger />
+			<envvars />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

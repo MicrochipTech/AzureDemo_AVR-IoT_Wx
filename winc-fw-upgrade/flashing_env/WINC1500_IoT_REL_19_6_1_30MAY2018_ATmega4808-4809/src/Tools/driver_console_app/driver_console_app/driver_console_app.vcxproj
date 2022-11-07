@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B8424E57-E57D-4637-9459-FCB3A5FEF873}</ProjectGuid>
+    <RootNamespace>driver_console_app</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>11.0.61030.0</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\atecc508;..\..\..\;..\..\..\host_drv;..\..\..\host_apps;..\..\test_config;..\..\..\common\ota;..\..\..\common\host_fw;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NMI_ASIC;WIN32;_DEBUG;_CONSOLE;CONF_WINC_USE_I2C;_CRT_SECURE_NO_WARNINGS;LED_BTN_DEMO;GROWL;UDP_TEST;PROWL;NMA;_DYNAMIC_PS_x;_STATIC_PS_s;_PS_SERVER_;__ENABLE_PMU__X;NM_LEVEL_INTERRUPT;__ENABLE_LEGACY_RF_SETTINGS__55;CONF_PERIPH;LIST_CONNECT;ETH_MODEx;NO_HW_CHIP_EN;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CompileAs>CompileAsC</CompileAs>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>Kernel32.lib;Winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\..\host_drv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;USE_I2C;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\host_drv\driver\source\m2m_hif.c" />
+    <ClCompile Include="..\..\..\host_drv\driver\source\m2m_ota.c" />
+    <ClCompile Include="..\..\..\host_drv\driver\source\m2m_periph.c" />
+    <ClCompile Include="..\..\..\host_drv\driver\source\m2m_wifi.c" />
+    <ClCompile Include="..\..\..\host_drv\driver\source\nmasic.c" />
+    <ClCompile Include="..\..\..\host_drv\driver\source\nmbus.c" />
+    <ClCompile Include="..\..\..\host_drv\driver\source\nmdrv.c" />
+    <ClCompile Include="..\..\..\host_drv\driver\source\nmi2c.c" />
+    <ClCompile Include="..\..\..\host_drv\driver\source\nmspi.c" />
+    <ClCompile Include="..\..\..\host_drv\driver\source\nmuart.c" />
+    <ClCompile Include="..\..\..\host_drv\bus_wrapper\source\aardvarc\aardvark.c" />
+    <ClCompile Include="..\..\..\host_drv\bus_wrapper\source\nm_bus_wrapper_aardvarc.c" />
+    <ClCompile Include="..\..\..\host_drv\bus_wrapper\source\nm_bus_wrapper_win_uart.c" />
+    <ClCompile Include="..\..\..\host_drv\bsp\source\nm_bsp_win32.c" />
+    <ClCompile Include="..\..\..\host_drv\common\source\nm_common.c" />
+    <ClCompile Include="..\..\..\host_drv\socket\source\socket.c" />
+    <ClCompile Include="..\..\..\host_apps\growl\source\growl.c" />
+    <ClCompile Include="..\..\..\host_apps\udp_test\udp_demo.c" />
+    <ClCompile Include="..\..\..\host_apps\udp_test\udp_test.c" />
+    <ClCompile Include="..\..\..\host_apps\led_btn_demo\led_btn_demo.c" />
+    <ClCompile Include="..\..\ethernet_mode\ethernet_mode.c" />
+    <ClCompile Include="..\..\..\host_apps\http_client\http_client.c" />
+    <ClCompile Include="..\..\..\host_drv\spi_flash\source\spi_flash.c" />
+    <ClCompile Include="..\http_client_test.c" />
+    <ClCompile Include="..\lm_spcomputation.c" />
+    <ClCompile Include="..\main.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\host_drv\driver\source\m2m_hif.h" />
+    <ClInclude Include="..\..\..\host_drv\driver\source\nmasic.h" />
+    <ClInclude Include="..\..\..\host_drv\driver\source\nmbus.h" />
+    <ClInclude Include="..\..\..\host_drv\driver\source\nmdrv.h" />
+    <ClInclude Include="..\..\..\host_drv\driver\source\nmi2c.h" />
+    <ClInclude Include="..\..\..\host_drv\driver\source\nmspi.h" />
+    <ClInclude Include="..\..\..\host_drv\driver\source\nmuart.h" />
+    <ClInclude Include="..\..\..\host_drv\driver\include\m2m_ota.h" />
+    <ClInclude Include="..\..\..\host_drv\driver\include\m2m_periph.h" />
+    <ClInclude Include="..\..\..\host_drv\driver\include\m2m_types.h" />
+    <ClInclude Include="..\..\..\host_drv\driver\include\m2m_wifi.h" />
+    <ClInclude Include="..\..\..\host_drv\bus_wrapper\include\nm_bus_wrapper.h" />
+    <ClInclude Include="..\..\..\host_drv\bsp\include\nm_bsp.h" />
+    <ClInclude Include="..\..\..\host_drv\bsp\include\nm_bsp_internal.h" />
+    <ClInclude Include="..\..\..\host_drv\bsp\include\nm_bsp_win32.h" />
+    <ClInclude Include="..\..\..\host_drv\common\include\nm_common.h" />
+    <ClInclude Include="..\..\..\host_drv\common\include\nm_debug.h" />
+    <ClInclude Include="..\..\..\host_drv\socket\include\socket.h" />
+    <ClInclude Include="..\..\..\host_drv\socket\source\socket_internal.h" />
+    <ClInclude Include="..\..\..\host_apps\growl\include\growl.h" />
+    <ClInclude Include="..\..\test_config\m2m_test_config.h" />
+    <ClInclude Include="..\..\..\host_apps\udp_test\udp_demo.h" />
+    <ClInclude Include="..\..\..\host_apps\udp_test\udp_test.h" />
+    <ClInclude Include="..\..\..\host_apps\led_btn_demo\led_btn_demo.h" />
+    <ClInclude Include="..\..\ethernet_mode\ethernet_mode.h" />
+    <ClInclude Include="..\..\..\host_apps\http_client\http_client.h" />
+    <ClInclude Include="..\..\..\host_drv\spi_flash\include\spi_flash.h" />
+    <ClInclude Include="..\lm_spcomputation.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="aps.managedbuild.project.exe.config.debug.1188082230.647901307.1928611987.571099122">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="aps.managedbuild.project.exe.config.debug.1188082230.647901307.1928611987.571099122" moduleId="org.eclipse.cdt.core.settings" name="release_3A0">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="jtag" artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="rm -rf" description="" errorParsers="org.eclipse.cdt.core.GLDErrorParser;org.eclipse.cdt.core.GCCErrorParser" id="aps.managedbuild.project.exe.config.debug.1188082230.647901307.1928611987.571099122" name="release_3A0" parent="aps.managedbuild.project.exe.config.debug" postannouncebuildStep="generating binaries" postbuildStep="$(CWD)\gen_image.bat" preannouncebuildStep="" prebuildStep="">
+					<folderInfo id="aps.managedbuild.project.exe.config.debug.1188082230.647901307.1928611987.571099122." name="/" resourcePath="">
+						<toolChain errorParsers="" id="aps.managedbuild.exe.config.debug.toolchain.1616942447" name="APS3 Tool Chain" nonInternalBuilderId="aps.managedbuild.exe.config.debug.toolchain.builder" superClass="aps.managedbuild.exe.config.debug.toolchain">
+							<targetPlatform binaryParser="" id="aps.managedbuild.exe.config.debug.toolchain.1616942447.1033517009" name="APS3 Platform"/>
+							<builder buildPath="${workspace_loc:/wifi_bootrom/Debug}" command="aps-make" errorParsers="" id="aps.managedbuild.exe.config.debug.toolchain.builder.975003018.1924714766" keepEnvironmentInBuildfile="false" name="Gnu Make for APS" parallelBuildOn="true" parallelizationNumber="-1"/>
+							<tool command="aps-gcc" commandLinePattern="${COMMAND} -c ${FLAGS} -fmessage-length=0 ${OUTPUT_FLAG}${OUTPUT_PREFIX}${OUTPUT} ${INPUTS}" errorParsers="org.eclipse.cdt.core.GCCErrorParser" id="aps.managedbuild.toolchain.c.compiler.391792089" name="APS3 C Compiler" superClass="aps.managedbuild.toolchain.c.compiler">
+								<option defaultValue="aps.c.optimization.level.optimize" id="aps.c.compiler.option.optimization.level.1658217265" name="Optimization Level" superClass="aps.c.compiler.option.optimization.level" value="aps.c.optimization.level.size" valueType="enumerated"/>
+								<option id="aps.c.compiler.option.machine.mul.236069159.672780259" name="Use Hardware Multiplier (-mmul)" superClass="aps.c.compiler.option.machine.mul" value="false" valueType="boolean"/>
+								<option id="aps.c.compiler.option.preprocessor.nostdinc.974412295" name="Do not search system directories (-nostdinc)" superClass="aps.c.compiler.option.preprocessor.nostdinc" value="false" valueType="boolean"/>
+								<option id="aps.c.compiler.option.include.paths.1988450969" name="Include paths (-I)" superClass="aps.c.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/cortus_cmn/cortus_fw_cmn}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/common/spi_flash_mapping}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/cortus_cmn/cortus_iface}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/cortus_cmn/cortus_periph/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/cortus_cmn/cortus_periph/source}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/app_src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/cortus_cmn}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/host_aps}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/host_aps/growl}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/host_aps}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/host_aps/led_btn_demo}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/host_aps/udp_test}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/test_config}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/host_drv}&quot;"/>
+								</option>
+								<option id="aps.c.compiler.option.optimization.lto.1420429985" name="Generate info for Link Time Optimizations (-flto)" superClass="aps.c.compiler.option.optimization.lto" value="true" valueType="boolean"/>
+								<option id="aps.c.compiler.option.misc.verbose.1654585477" name="Verbose (-v)" superClass="aps.c.compiler.option.misc.verbose" value="false" valueType="boolean"/>
+								<option id="aps.c.compiler.option.misc.other.825000876" name="Other flags" superClass="aps.c.compiler.option.misc.other" value="-Wno-cast-align  -fno-strict-aliasing -mmul -mcpu=aps3s" valueType="string"/>
+								<option id="aps.c.compiler.option.misc.debug.1305435141" name="Enable Debug" superClass="aps.c.compiler.option.misc.debug" value="false" valueType="boolean"/>
+								<option id="aps.c.compiler.option.preprocessor.def.symbols.2081830929" name="Defined symbols (-D)" superClass="aps.c.compiler.option.preprocessor.def.symbols" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="NM_OS"/>
+									<listOptionValue builtIn="false" value="__ENABLE_LEGACY_RF_SETTINGS__XX"/>
+									<listOptionValue builtIn="false" value="NMC1003A0"/>
+									<listOptionValue builtIn="false" value="__ENABLE_PMU__xx"/>
+									<listOptionValue builtIn="false" value="LIST_CONNECT"/>
+									<listOptionValue builtIn="false" value="LED_BTN_DEMO"/>
+									<listOptionValue builtIn="false" value="_DYNAMIC_PS_"/>
+									<listOptionValue builtIn="false" value="NMI_USE_SPI"/>
+									<listOptionValue builtIn="false" value="WIFI_DIRECT_TEST"/>
+									<listOptionValue builtIn="false" value="NMI_USE_UART"/>
+									<listOptionValue builtIn="false" value="M2M_MGMT__"/>
+									<listOptionValue builtIn="false" value="CORTUS_APP"/>
+									<listOptionValue builtIn="false" value="NMA"/>
+									<listOptionValue builtIn="false" value="PROWL"/>
+									<listOptionValue builtIn="false" value="NM_DEBUG=1"/>
+									<listOptionValue builtIn="false" value="UDP_TEST"/>
+									<listOptionValue builtIn="false" value="GROWL"/>
+									<listOptionValue builtIn="false" value="__APS3_CORTUS__"/>
+									<listOptionValue builtIn="false" value="M2M"/>
+								</option>
+								<option id="aps.c.compiler.option.preprocessor.undef.symbol.232619561" name="Undefined symbols (-U)" superClass="aps.c.compiler.option.preprocessor.undef.symbol" valueType="undefDefinedSymbols">
+									<listOptionValue builtIn="false" value="_PS_CLIENT_"/>
+									<listOptionValue builtIn="false" value="M2M_MGM"/>
+								</option>
+								<option id="aps.c.compiler.option.misc.functionsections.137467132.1504286042" name="Separate Section for each function" superClass="aps.c.compiler.option.misc.functionsections" value="true" valueType="boolean"/>
+								<option id="aps.c.compiler.option.misc.datasections.1094127071.1189920538" name="Separate Section for each data item" superClass="aps.c.compiler.option.misc.datasections" value="true" valueType="boolean"/>
+								<option id="aps.c.compiler.option.optimization.fsrodata.1506581506" name="Place all constants no bigger than this in short readonly data section (-fsrodata=x)" superClass="aps.c.compiler.option.optimization.fsrodata" value="0" valueType="string"/>
+								<option id="aps.c.compiler.option.optimization.G.260452811" name="Place all variables no bigger than this in short data section (-G x)" superClass="aps.c.compiler.option.optimization.G" value="0" valueType="string"/>
+								<inputType id="aps.managedbuild.tool.c.compiler.input.972653565" superClass="aps.managedbuild.tool.c.compiler.input"/>
+							</tool>
+							<tool command="aps-g++" commandLinePattern="${COMMAND} -c ${FLAGS} -fmessage-length=0 ${OUTPUT_FLAG}${OUTPUT_PREFIX}${OUTPUT} ${INPUTS}" errorParsers="org.eclipse.cdt.core.GCCErrorParser" id="aps.managedbuild.toolchain.cpp.compiler.1395493660" name="APS3 C++ Compiler" superClass="aps.managedbuild.toolchain.cpp.compiler">
+								<option defaultValue="aps.c.optimization.level.optimize" id="aps.cpp.compiler.option.optimization.level.668240645" name="Optimization Level" superClass="aps.cpp.compiler.option.optimization.level" valueType="enumerated"/>
+								<option id="aps.cpp.compiler.option.optimization.flags.1380054724" name="Other optimization flags" superClass="aps.cpp.compiler.option.optimization.flags" value="-mmul" valueType="string"/>
+								<option id="aps.cpp.compiler.option.optimization.lto.1053094786" name="Generate info for Link Time Optimizations (-flto)" superClass="aps.cpp.compiler.option.optimization.lto" value="true" valueType="boolean"/>
+								<inputType id="aps.managedbuild.tool.cpp.compiler.input.2011820159" superClass="aps.managedbuild.tool.cpp.compiler.input"/>
+							</tool>
+							<tool command="aps-g++" commandLinePattern="${COMMAND} ${FLAGS} ${OUTPUT_FLAG}${OUTPUT_PREFIX}${OUTPUT} ${CCLIBPATH} ${INPUTS}" errorParsers="org.eclipse.cdt.core.GLDErrorParser" id="aps.managedbuild.toolchain.c.linker.1624553772" name="APS3 C Linker" superClass="aps.managedbuild.toolchain.c.linker">
+								<option id="aps.c.link.option.machine.mul.902920116.1674871555" name="Use Hardware Multiplier (-mmul)" superClass="aps.c.link.option.machine.mul" value="false" valueType="boolean"/>
+								<option id="aps.c.link.option.nostart.2006883685" name="Do not use standard start files (-nostartfiles)" superClass="aps.c.link.option.nostart" value="true" valueType="boolean"/>
+								<option id="aps.c.link.option.lto.184668263.903512357" name="Enable Link Time Optimization (-flto)" superClass="aps.c.link.option.lto" value="true" valueType="boolean"/>
+								<option id="aps.c.link.option.linkerscript.380530262" name="Linker Script to use (-T)" superClass="aps.c.link.option.linkerscript" value="wifi.ld" valueType="string"/>
+								<option id="aps.c.link.option.paths.1205204253" name="Library search path (-L)" superClass="aps.c.link.option.paths" valueType="libPaths">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/app_src}&quot;"/>
+								</option>
+								<option id="aps.c.link.option.optimization.level.1869425167" name="Optimization Level" superClass="aps.c.link.option.optimization.level" value="aps.c.link.optimization.level.size" valueType="enumerated"/>
+								<option id="aps.c.link.option.nostdlibs.484419687" name="No startup or default libs (-nostdlib)" superClass="aps.c.link.option.nostdlibs" value="false" valueType="boolean"/>
+								<option id="aps.c.link.option.nodeflibs.1326250182" name="Do not use default libraries (-nodefaultlibs)" superClass="aps.c.link.option.nodeflibs" value="false" valueType="boolean"/>
+								<option id="aps.c.link.option.libs.11110738" name="Libraries (-l)" superClass="aps.c.link.option.libs"/>
+								<option id="aps.c.link.option.userobjs.1149914357" name="Other objects" superClass="aps.c.link.option.userobjs"/>
+								<option id="aps.c.link.option.ldflags.6565715" name="Other link options" superClass="aps.c.link.option.ldflags" value="-fwhole-program -mmul -mcpu=aps3s" valueType="string"/>
+								<option id="aps.c.link.option.debug.1263722596" name="Enable Debug" superClass="aps.c.link.option.debug" value="true" valueType="boolean"/>
+								<option id="aps.c.link.option.optimization.fsrodata.1766512663" name="Place all constants no bigger than this in short readonly data section (-fsrodata=x)" superClass="aps.c.link.option.optimization.fsrodata" value="0" valueType="string"/>
+								<option id="aps.c.link.option.optimization.G.737347636" name="Place all variables no bigger than this in short data section (-G x)" superClass="aps.c.link.option.optimization.G" value="0" valueType="string"/>
+								<option id="aps.c.link.option.optimization.lto.1895332548" name="Enable Link Time Optimization (-flto)" superClass="aps.c.link.option.optimization.lto" value="true" valueType="boolean"/>
+								<inputType id="aps.managedbuild.tool.c.linker.input.1492340248" superClass="aps.managedbuild.tool.c.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="aps.managedbuild.toolchain.archiver.1786855477" name="APS3 Librarian" superClass="aps.managedbuild.toolchain.archiver"/>
+							<tool command="aps-objcopy" commandLinePattern="${COMMAND} ${INPUTS} ${FLAGS} ${OUTPUT}" errorParsers="" id="aps.managedbuild.toolchain.other.1278680844" name="APS Other Tools" superClass="aps.managedbuild.toolchain.other"/>
+						</toolChain>
+					</folderInfo>
+					<folderInfo id="aps.managedbuild.project.exe.config.debug.1188082230.647901307.1928611987.571099122.host_drv" name="/" resourcePath="host_drv">
+						<toolChain errorParsers="" id="aps.managedbuild.exe.config.debug.toolchain.1736999934" name="APS3 Tool Chain" superClass="aps.managedbuild.exe.config.debug.toolchain" unusedChildren="">
+							<targetPlatform id="aps.managedbuild.exe.config.debug.toolchain.1736999934.67660033" name="APS3 Platform"/>
+							<tool errorParsers="org.eclipse.cdt.core.GCCErrorParser" id="aps.managedbuild.toolchain.c.compiler.1602523414" name="APS3 C Compiler" superClass="aps.managedbuild.toolchain.c.compiler.391792089">
+								<inputType id="aps.managedbuild.tool.c.compiler.input.537014772" superClass="aps.managedbuild.tool.c.compiler.input"/>
+							</tool>
+							<tool errorParsers="org.eclipse.cdt.core.GCCErrorParser" id="aps.managedbuild.toolchain.cpp.compiler.496886088" name="APS3 C++ Compiler" superClass="aps.managedbuild.toolchain.cpp.compiler.1395493660">
+								<inputType id="aps.managedbuild.tool.cpp.compiler.input.516733158" superClass="aps.managedbuild.tool.cpp.compiler.input"/>
+							</tool>
+							<tool id="aps.managedbuild.toolchain.c.linker.970387903" name="APS3 C Linker" superClass="aps.managedbuild.toolchain.c.linker.1624553772"/>
+							<tool id="aps.managedbuild.toolchain.archiver.898492539" name="APS3 Librarian" superClass="aps.managedbuild.toolchain.archiver.1786855477"/>
+							<tool errorParsers="" id="aps.managedbuild.toolchain.other.1948322617" name="APS Other Tools" superClass="aps.managedbuild.toolchain.other"/>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry excluding="host_aps|common|host_aps/serial_bridge|host_aps/mdns|host_aps/http_client|host_drv/spi_flash|host_aps/udp_test|firmware_files/src/wifi_crt0.c|host_drv/driver/source/nmi2c.c|HOST_DRV_ROOT/driver/source/nmi2c.c|HOST_DRV_ROOT/bsp/source|HOST_DRV_ROOT/bsp/source/nm_bsp_mcf51cn128.c|host_aps/bsp/source/nm_bsp_samd21_app.c|HOST_DRV_ROOT/bsp/source/nm_bsp_k20d50m.c|HOST_DRV_ROOT/driver/source/m2m_hif.c|host_drv/driver/source/nmuart.c|firmware_files/src/h2bin.c|host_drv/bus_wrapper/source|HOST_DRV_ROOT/bus_wrapper|NMI_M2M|firmware_files/src/Edge|HOST_DRV_ROOT/bsp/source/nm_bsp_win32.c|firmware_files/src/Controller|HOST_DRV_ROOT/bsp/source/bsp_msp430fr5739alps.c|firmware_files/src/CSL|HOST_DRV_ROOT/driver/source/nmdrv.c|HOST_DRV_ROOT/bsp/source/bsp_mc96f4548|HOST_DRV_ROOT/bsp/source/nm_bsp_nrf51822.c|firmware_files|firmware_files/src/Common|firmware_files/src/Core|HOST_DRV_ROOT/bsp/source/bsp_msp430fr5739.c|host_drv/driver/source/nmspi.c|HOST_DRV_ROOT/driver/source/nmasic.c|HOST_DRV_ROOT/driver/source/nmspi.c|firmware_files/src/koko.c|firmware_files/src/wifi_bootrom_crt0.c|host_drv/driver/source/nmbus.c|host_drv/driver/source/nmasic.c|firmware_files/src/m2m|firmware_files/src/Test|HOST_DRV_ROOT/bsp/source/nm_spi_flash.c|HOST_DRV_ROOT/driver/source/nmbus.c|HOST_DRV_ROOT/driver/source/nmc1500_m2m_drv.c|HOST_DRV_ROOT/bsp/source/nm_bsp_mc96f4548.c|HOST_DRV_ROOT/bsp/include|firmware_files/src/wifi_bootrom.c|host_drv/driver/source/spi_flash.c|host_drv/driver/source/m2m_hif.c|firmware_files/ASIC_A0|firmware_files/src/memconfig.c|HOST_DRV_ROOT/driver/source/nmuart.c|firmware_files/src/Utils|host_drv/bus_wrapper|host_aps/bsp|HOST_DRV_ROOT/driver/source/nmc1000_m2m_drv.c|host_drv/driver/source/nmdrv.c|host_drv/bsp/source" flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name=""/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="common/spi_flash_mapping"/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+		<cconfiguration id="aps.managedbuild.project.exe.config.debug.1188082230.647901307.1928611987.571099122.1814337125">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="aps.managedbuild.project.exe.config.debug.1188082230.647901307.1928611987.571099122.1814337125" moduleId="org.eclipse.cdt.core.settings" name="release_2B0">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="jtag" artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="rm -rf" description="" errorParsers="org.eclipse.cdt.core.GLDErrorParser;org.eclipse.cdt.core.GCCErrorParser" id="aps.managedbuild.project.exe.config.debug.1188082230.647901307.1928611987.571099122.1814337125" name="release_2B0" parent="aps.managedbuild.project.exe.config.debug" postannouncebuildStep="generating binaries" postbuildStep="$(CWD)\gen_image.bat" preannouncebuildStep="" prebuildStep="">
+					<folderInfo id="aps.managedbuild.project.exe.config.debug.1188082230.647901307.1928611987.571099122.1814337125." name="/" resourcePath="">
+						<toolChain errorParsers="" id="aps.managedbuild.exe.config.debug.toolchain.1796475380" name="APS3 Tool Chain" nonInternalBuilderId="aps.managedbuild.exe.config.debug.toolchain.builder" superClass="aps.managedbuild.exe.config.debug.toolchain">
+							<targetPlatform binaryParser="" id="aps.managedbuild.exe.config.debug.toolchain.1796475380.35058629" name="APS3 Platform"/>
+							<builder buildPath="${workspace_loc:/wifi_bootrom/Debug}" command="aps-make" errorParsers="" id="aps.managedbuild.exe.config.debug.toolchain.builder.975003018.1924714766.228727490" keepEnvironmentInBuildfile="false" name="Gnu Make for APS" parallelBuildOn="true" parallelizationNumber="-1"/>
+							<tool command="aps-gcc" commandLinePattern="${COMMAND} -c ${FLAGS} -fmessage-length=0 ${OUTPUT_FLAG}${OUTPUT_PREFIX}${OUTPUT} ${INPUTS}" errorParsers="org.eclipse.cdt.core.GCCErrorParser" id="aps.managedbuild.toolchain.c.compiler.2133843695" name="APS3 C Compiler" superClass="aps.managedbuild.toolchain.c.compiler">
+								<option defaultValue="aps.c.optimization.level.optimize" id="aps.c.compiler.option.optimization.level.1696519611" name="Optimization Level" superClass="aps.c.compiler.option.optimization.level" value="aps.c.optimization.level.size" valueType="enumerated"/>
+								<option id="aps.c.compiler.option.machine.mul.236069159.672780259.1129926108" name="Use Hardware Multiplier (-mmul)" superClass="aps.c.compiler.option.machine.mul" value="false" valueType="boolean"/>
+								<option id="aps.c.compiler.option.preprocessor.nostdinc.376885989" name="Do not search system directories (-nostdinc)" superClass="aps.c.compiler.option.preprocessor.nostdinc" value="false" valueType="boolean"/>
+								<option id="aps.c.compiler.option.include.paths.1668326192" name="Include paths (-I)" superClass="aps.c.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/cortus_cmn/cortus_fw_cmn}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/common/spi_flash_mapping}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/cortus_cmn/cortus_iface}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/cortus_cmn/cortus_periph/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/cortus_cmn/cortus_periph/source}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/app_src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/cortus_cmn}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/host_aps}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/host_aps/growl}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/host_aps}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/host_aps/led_btn_demo}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/host_aps/udp_test}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/test_config}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/host_drv}&quot;"/>
+								</option>
+								<option id="aps.c.compiler.option.optimization.lto.723491829" name="Generate info for Link Time Optimizations (-flto)" superClass="aps.c.compiler.option.optimization.lto" value="true" valueType="boolean"/>
+								<option id="aps.c.compiler.option.misc.verbose.921314113" name="Verbose (-v)" superClass="aps.c.compiler.option.misc.verbose" value="false" valueType="boolean"/>
+								<option id="aps.c.compiler.option.misc.other.55917868" name="Other flags" superClass="aps.c.compiler.option.misc.other" value="-Wno-cast-align  -fno-strict-aliasing -mcpu=aps3s" valueType="string"/>
+								<option id="aps.c.compiler.option.misc.debug.22655505" name="Enable Debug" superClass="aps.c.compiler.option.misc.debug" value="false" valueType="boolean"/>
+								<option id="aps.c.compiler.option.preprocessor.def.symbols.1168726299" name="Defined symbols (-D)" superClass="aps.c.compiler.option.preprocessor.def.symbols" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="NM_OS"/>
+									<listOptionValue builtIn="false" value="__ENABLE_LEGACY_RF_SETTINGS__XX"/>
+									<listOptionValue builtIn="false" value="NMC1003A0"/>
+									<listOptionValue builtIn="false" value="__ENABLE_PMU__xx"/>
+									<listOptionValue builtIn="false" value="LIST_CONNECT"/>
+									<listOptionValue builtIn="false" value="LED_BTN_DEMO"/>
+									<listOptionValue builtIn="false" value="_DYNAMIC_PS_"/>
+									<listOptionValue builtIn="false" value="NMI_USE_SPI"/>
+									<listOptionValue builtIn="false" value="WIFI_DIRECT_TEST"/>
+									<listOptionValue builtIn="false" value="NMI_USE_UART"/>
+									<listOptionValue builtIn="false" value="M2M_MGMT__"/>
+									<listOptionValue builtIn="false" value="CORTUS_APP"/>
+									<listOptionValue builtIn="false" value="NMA"/>
+									<listOptionValue builtIn="false" value="PROWL"/>
+									<listOptionValue builtIn="false" value="NM_DEBUG=1"/>
+									<listOptionValue builtIn="false" value="UDP_TEST"/>
+									<listOptionValue builtIn="false" value="GROWL"/>
+									<listOptionValue builtIn="false" value="__APS3_CORTUS__"/>
+									<listOptionValue builtIn="false" value="M2M"/>
+								</option>
+								<option id="aps.c.compiler.option.preprocessor.undef.symbol.1796799350" name="Undefined symbols (-U)" superClass="aps.c.compiler.option.preprocessor.undef.symbol" valueType="undefDefinedSymbols">
+									<listOptionValue builtIn="false" value="_PS_CLIENT_"/>
+									<listOptionValue builtIn="false" value="M2M_MGM"/>
+								</option>
+								<option id="aps.c.compiler.option.misc.functionsections.137467132.1504286042.481419415" name="Separate Section for each function" superClass="aps.c.compiler.option.misc.functionsections" value="true" valueType="boolean"/>
+								<option id="aps.c.compiler.option.misc.datasections.1094127071.1189920538.98106115" name="Separate Section for each data item" superClass="aps.c.compiler.option.misc.datasections" value="true" valueType="boolean"/>
+								<option id="aps.c.compiler.option.optimization.fsrodata.716629841" name="Place all constants no bigger than this in short readonly data section (-fsrodata=x)" superClass="aps.c.compiler.option.optimization.fsrodata" value="0" valueType="string"/>
+								<option id="aps.c.compiler.option.optimization.G.138391741" name="Place all variables no bigger than this in short data section (-G x)" superClass="aps.c.compiler.option.optimization.G" value="0" valueType="string"/>
+								<inputType id="aps.managedbuild.tool.c.compiler.input.302917328" superClass="aps.managedbuild.tool.c.compiler.input"/>
+							</tool>
+							<tool command="aps-g++" commandLinePattern="${COMMAND} -c ${FLAGS} -fmessage-length=0 ${OUTPUT_FLAG}${OUTPUT_PREFIX}${OUTPUT} ${INPUTS}" errorParsers="org.eclipse.cdt.core.GCCErrorParser" id="aps.managedbuild.toolchain.cpp.compiler.119606023" name="APS3 C++ Compiler" superClass="aps.managedbuild.toolchain.cpp.compiler">
+								<option defaultValue="aps.c.optimization.level.optimize" id="aps.cpp.compiler.option.optimization.level.1689106118" name="Optimization Level" superClass="aps.cpp.compiler.option.optimization.level" valueType="enumerated"/>
+								<option id="aps.cpp.compiler.option.optimization.flags.1679654965" name="Other optimization flags" superClass="aps.cpp.compiler.option.optimization.flags" value="" valueType="string"/>
+								<option id="aps.cpp.compiler.option.optimization.lto.1355055724" name="Generate info for Link Time Optimizations (-flto)" superClass="aps.cpp.compiler.option.optimization.lto" value="true" valueType="boolean"/>
+								<inputType id="aps.managedbuild.tool.cpp.compiler.input.704846123" superClass="aps.managedbuild.tool.cpp.compiler.input"/>
+							</tool>
+							<tool command="aps-g++" commandLinePattern="${COMMAND} ${FLAGS} ${OUTPUT_FLAG}${OUTPUT_PREFIX}${OUTPUT} ${CCLIBPATH} ${INPUTS}" errorParsers="org.eclipse.cdt.core.GLDErrorParser" id="aps.managedbuild.toolchain.c.linker.1373060719" name="APS3 C Linker" superClass="aps.managedbuild.toolchain.c.linker">
+								<option id="aps.c.link.option.machine.mul.902920116.1674871555.1712336766" name="Use Hardware Multiplier (-mmul)" superClass="aps.c.link.option.machine.mul" value="false" valueType="boolean"/>
+								<option id="aps.c.link.option.nostart.2135423454" name="Do not use standard start files (-nostartfiles)" superClass="aps.c.link.option.nostart" value="true" valueType="boolean"/>
+								<option id="aps.c.link.option.lto.184668263.903512357.383984849" name="Enable Link Time Optimization (-flto)" superClass="aps.c.link.option.lto" value="true" valueType="boolean"/>
+								<option id="aps.c.link.option.linkerscript.710594160" name="Linker Script to use (-T)" superClass="aps.c.link.option.linkerscript" value="wifi.ld" valueType="string"/>
+								<option id="aps.c.link.option.paths.471199930" name="Library search path (-L)" superClass="aps.c.link.option.paths" valueType="libPaths">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/app_src}&quot;"/>
+								</option>
+								<option id="aps.c.link.option.optimization.level.690437033" name="Optimization Level" superClass="aps.c.link.option.optimization.level" value="aps.c.link.optimization.level.size" valueType="enumerated"/>
+								<option id="aps.c.link.option.nostdlibs.539980873" name="No startup or default libs (-nostdlib)" superClass="aps.c.link.option.nostdlibs" value="false" valueType="boolean"/>
+								<option id="aps.c.link.option.nodeflibs.22373392" name="Do not use default libraries (-nodefaultlibs)" superClass="aps.c.link.option.nodeflibs" value="false" valueType="boolean"/>
+								<option id="aps.c.link.option.libs.1955402532" name="Libraries (-l)" superClass="aps.c.link.option.libs"/>
+								<option id="aps.c.link.option.userobjs.1244266458" name="Other objects" superClass="aps.c.link.option.userobjs"/>
+								<option id="aps.c.link.option.ldflags.1210350032" name="Other link options" superClass="aps.c.link.option.ldflags" value="-fwhole-program -mcpu=aps3s" valueType="string"/>
+								<option id="aps.c.link.option.debug.981776263" name="Enable Debug" superClass="aps.c.link.option.debug" value="true" valueType="boolean"/>
+								<option id="aps.c.link.option.optimization.fsrodata.1635839324" name="Place all constants no bigger than this in short readonly data section (-fsrodata=x)" superClass="aps.c.link.option.optimization.fsrodata" value="0" valueType="string"/>
+								<option id="aps.c.link.option.optimization.G.1162268631" name="Place all variables no bigger than this in short data section (-G x)" superClass="aps.c.link.option.optimization.G" value="0" valueType="string"/>
+								<option id="aps.c.link.option.optimization.lto.1101826634" name="Enable Link Time Optimization (-flto)" superClass="aps.c.link.option.optimization.lto" value="true" valueType="boolean"/>
+								<inputType id="aps.managedbuild.tool.c.linker.input.401484401" superClass="aps.managedbuild.tool.c.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="aps.managedbuild.toolchain.archiver.1868072866" name="APS3 Librarian" superClass="aps.managedbuild.toolchain.archiver"/>
+							<tool command="aps-objcopy" commandLinePattern="${COMMAND} ${INPUTS} ${FLAGS} ${OUTPUT}" errorParsers="" id="aps.managedbuild.toolchain.other.1866804339" name="APS Other Tools" superClass="aps.managedbuild.toolchain.other"/>
+						</toolChain>
+					</folderInfo>
+					<folderInfo id="aps.managedbuild.project.exe.config.debug.1188082230.647901307.1928611987.571099122.1814337125.host_drv" name="/" resourcePath="host_drv">
+						<toolChain errorParsers="" id="aps.managedbuild.exe.config.debug.toolchain.1860150338" name="APS3 Tool Chain" superClass="aps.managedbuild.exe.config.debug.toolchain" unusedChildren="">
+							<targetPlatform id="aps.managedbuild.exe.config.debug.toolchain.1860150338.1388865461" name="APS3 Platform"/>
+							<tool errorParsers="org.eclipse.cdt.core.GCCErrorParser" id="aps.managedbuild.toolchain.c.compiler.1697668571" name="APS3 C Compiler" superClass="aps.managedbuild.toolchain.c.compiler.2133843695">
+								<inputType id="aps.managedbuild.tool.c.compiler.input.1837904121" superClass="aps.managedbuild.tool.c.compiler.input"/>
+							</tool>
+							<tool errorParsers="org.eclipse.cdt.core.GCCErrorParser" id="aps.managedbuild.toolchain.cpp.compiler.1524130362" name="APS3 C++ Compiler" superClass="aps.managedbuild.toolchain.cpp.compiler.119606023">
+								<inputType id="aps.managedbuild.tool.cpp.compiler.input.116511888" superClass="aps.managedbuild.tool.cpp.compiler.input"/>
+							</tool>
+							<tool id="aps.managedbuild.toolchain.c.linker.1782360000" name="APS3 C Linker" superClass="aps.managedbuild.toolchain.c.linker.1373060719"/>
+							<tool id="aps.managedbuild.toolchain.archiver.571618132" name="APS3 Librarian" superClass="aps.managedbuild.toolchain.archiver.1868072866"/>
+							<tool errorParsers="" id="aps.managedbuild.toolchain.other.1505999064" name="APS Other Tools" superClass="aps.managedbuild.toolchain.other"/>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry excluding="host_aps|common|host_aps/serial_bridge|host_aps/mdns|host_aps/http_client|host_drv/spi_flash|host_aps/udp_test|firmware_files/src/wifi_crt0.c|host_drv/driver/source/nmi2c.c|HOST_DRV_ROOT/driver/source/nmi2c.c|HOST_DRV_ROOT/bsp/source|HOST_DRV_ROOT/bsp/source/nm_bsp_mcf51cn128.c|host_aps/bsp/source/nm_bsp_samd21_app.c|HOST_DRV_ROOT/bsp/source/nm_bsp_k20d50m.c|HOST_DRV_ROOT/driver/source/m2m_hif.c|host_drv/driver/source/nmuart.c|firmware_files/src/h2bin.c|host_drv/bus_wrapper/source|HOST_DRV_ROOT/bus_wrapper|NMI_M2M|firmware_files/src/Edge|HOST_DRV_ROOT/bsp/source/nm_bsp_win32.c|firmware_files/src/Controller|HOST_DRV_ROOT/bsp/source/bsp_msp430fr5739alps.c|firmware_files/src/CSL|HOST_DRV_ROOT/driver/source/nmdrv.c|HOST_DRV_ROOT/bsp/source/bsp_mc96f4548|HOST_DRV_ROOT/bsp/source/nm_bsp_nrf51822.c|firmware_files|firmware_files/src/Common|firmware_files/src/Core|HOST_DRV_ROOT/bsp/source/bsp_msp430fr5739.c|host_drv/driver/source/nmspi.c|HOST_DRV_ROOT/driver/source/nmasic.c|HOST_DRV_ROOT/driver/source/nmspi.c|firmware_files/src/koko.c|firmware_files/src/wifi_bootrom_crt0.c|host_drv/driver/source/nmbus.c|host_drv/driver/source/nmasic.c|firmware_files/src/m2m|firmware_files/src/Test|HOST_DRV_ROOT/bsp/source/nm_spi_flash.c|HOST_DRV_ROOT/driver/source/nmbus.c|HOST_DRV_ROOT/driver/source/nmc1500_m2m_drv.c|HOST_DRV_ROOT/bsp/source/nm_bsp_mc96f4548.c|HOST_DRV_ROOT/bsp/include|firmware_files/src/wifi_bootrom.c|host_drv/driver/source/spi_flash.c|host_drv/driver/source/m2m_hif.c|firmware_files/ASIC_A0|firmware_files/src/memconfig.c|HOST_DRV_ROOT/driver/source/nmuart.c|firmware_files/src/Utils|host_drv/bus_wrapper|host_aps/bsp|HOST_DRV_ROOT/driver/source/nmc1000_m2m_drv.c|host_drv/driver/source/nmdrv.c|host_drv/bsp/source" flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name=""/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="common/spi_flash_mapping"/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="wifi_bootrom.aps.managedbuild.project.exe.363926594" name="APS3 Executable project" projectType="aps.managedbuild.project.exe"/>
+	</storageModule>
+	<storageModule moduleId="refreshScope" versionNumber="1">
+		<resource resourceType="PROJECT" workspacePath="/wifi_bootrom"/>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="aps.managedbuild.project.exe.config.debug.1188082230.647901307.1928611987.571099122;aps.managedbuild.project.exe.config.debug.1188082230.647901307.1928611987.571099122.;aps.managedbuild.toolchain.cpp.compiler.1395493660;aps.managedbuild.tool.cpp.compiler.input.2011820159">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.cortus.builddefinitions.APSPerProjectProfile"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="aps.managedbuild.project.exe.config.debug.1188082230.647901307.1928611987.571099122;aps.managedbuild.project.exe.config.debug.1188082230.647901307.1928611987.571099122.;aps.managedbuild.toolchain.c.compiler.391792089;aps.managedbuild.tool.c.compiler.input.972653565">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.cortus.builddefinitions.APSPerProjectProfile"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="aps.managedbuild.project.exe.config.debug.1188082230.647901307.1928611987.571099122;aps.managedbuild.project.exe.config.debug.1188082230.647901307.1928611987.571099122.host_drv;aps.managedbuild.toolchain.c.compiler.1602523414;aps.managedbuild.tool.c.compiler.input.537014772">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.cortus.builddefinitions.APSPerProjectProfile"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="aps.managedbuild.project.exe.config.release.159007429;aps.managedbuild.project.exe.config.release.159007429.;aps.managedbuild.toolchain.c.compiler.1604164572;aps.managedbuild.tool.c.compiler.input.1267602492">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.cortus.builddefinitions.APS3PerProjectProfile"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="aps.managedbuild.project.exe.config.debug.1188082230.1786196541;aps.managedbuild.project.exe.config.debug.1188082230.1786196541.;aps.managedbuild.toolchain.c.compiler.885297985;aps.managedbuild.tool.c.compiler.input.82612098">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.cortus.builddefinitions.APS3PerProjectProfile"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="aps.managedbuild.project.exe.config.debug.1188082230;aps.managedbuild.project.exe.config.debug.1188082230.;aps.managedbuild.toolchain.c.compiler.1557749521;aps.managedbuild.tool.c.compiler.input.570047273">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.cortus.builddefinitions.APS3PerProjectProfile"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="aps.managedbuild.project.exe.config.debug.1188082230.647901307.1928611987;aps.managedbuild.project.exe.config.debug.1188082230.647901307.1928611987.;aps.managedbuild.toolchain.c.compiler.1108988625;aps.managedbuild.tool.c.compiler.input.1667657333">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.cortus.builddefinitions.APS3PerProjectProfile"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="aps.managedbuild.project.exe.config.debug.1188082230.647901307.1928611987;aps.managedbuild.project.exe.config.debug.1188082230.647901307.1928611987.514160997;aps.managedbuild.toolchain.c.compiler.1011306009;aps.managedbuild.tool.c.compiler.input.1533091152">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.cortus.builddefinitions.APS3PerProjectProfile"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="aps.managedbuild.project.exe.config.debug.1188082230.647901307.1928611987.571099122;aps.managedbuild.project.exe.config.debug.1188082230.647901307.1928611987.571099122.host_drv;aps.managedbuild.toolchain.cpp.compiler.496886088;aps.managedbuild.tool.cpp.compiler.input.516733158">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.cortus.builddefinitions.APSPerProjectProfile"/>
+		</scannerConfigBuildInfo>
+	</storageModule>
+</cproject>

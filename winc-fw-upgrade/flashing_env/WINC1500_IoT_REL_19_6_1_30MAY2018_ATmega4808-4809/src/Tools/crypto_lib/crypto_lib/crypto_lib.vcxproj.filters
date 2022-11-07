@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="crypto_lib">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{608cf637-c1a6-47f1-a01d-2c8bec382318}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="x509">
+      <UniqueIdentifier>{d4bf9aa7-1384-403b-8572-e4d783ed4d39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="port">
+      <UniqueIdentifier>{51bcb2a4-3c97-4794-a6ce-5b48bfcec14d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\firmware\wifi_v111\src\nmi_m2m\source\crypto\aes.c">
+      <Filter>crypto_lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\firmware\wifi_v111\src\nmi_m2m\source\crypto\aes_cbc.c">
+      <Filter>crypto_lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\firmware\wifi_v111\src\nmi_m2m\source\crypto\aes_gcm.c">
+      <Filter>crypto_lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\firmware\wifi_v111\src\nmi_m2m\source\crypto\hash.c">
+      <Filter>crypto_lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\firmware\wifi_v111\src\nmi_m2m\source\crypto\rsa.c">
+      <Filter>crypto_lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\firmware\wifi_v111\src\nmi_m2m\source\crypto\bigint.c">
+      <Filter>crypto_lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\firmware\wifi_v111\src\nmi_m2m\source\tls\x509\asn1.c">
+      <Filter>x509</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\firmware\wifi_v111\src\nmi_m2m\source\tls\x509\x509_cert.c">
+      <Filter>x509</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\crypto_port.c">
+      <Filter>port</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\tls_buffer_manager.c">
+      <Filter>port</Filter>
+    </ClCompile>
+    <ClCompile Include="..\crypto_lib_api.c" />
+    <ClCompile Include="..\source\rsa_key.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\crypto_lib_api.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\firmware\wifi_v111\src\nmi_m2m\source\tls\x509\asn1.h">
+      <Filter>x509</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\firmware\wifi_v111\src\nmi_m2m\source\tls\x509\x509_cert.h">
+      <Filter>x509</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\m2m_types.h">
+      <Filter>port</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\nmi_m2m.h">
+      <Filter>port</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\tls_buffer_manager.h">
+      <Filter>port</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\tls_port.h">
+      <Filter>port</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

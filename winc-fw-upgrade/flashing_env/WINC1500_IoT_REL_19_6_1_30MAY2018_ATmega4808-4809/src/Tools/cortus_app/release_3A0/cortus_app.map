@@ -1,0 +1,936 @@
+Archive member included because of file (symbol)
+
+c:/cortus-ide_new/toolchain/bin/../lib/gcc/aps/4.7.3/aps1\libgcc.a(_modsi3.o)
+                              C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans1.ltrans.o (__modsi3)
+c:/cortus-ide_new/toolchain/bin/../lib/gcc/aps/4.7.3/aps1\libgcc.a(_switch.o)
+                              C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans2.ltrans.o (__switch)
+c:/cortus-ide_new/toolchain/bin/../lib/gcc/aps/4.7.3/aps1\libgcc.a(_divsi3.o)
+                              c:/cortus-ide_new/toolchain/bin/../lib/gcc/aps/4.7.3/aps1\libgcc.a(_modsi3.o) (__divsi3)
+c:/cortus-ide_new/toolchain/bin/../lib/gcc/aps/4.7.3/aps1\libgcc.a(_udivsi3.o)
+                              c:/cortus-ide_new/toolchain/bin/../lib/gcc/aps/4.7.3/aps1\libgcc.a(_divsi3.o) (__udivsi3)
+
+Allocating common symbols
+Common symbol       size              file
+
+gu16BufferSize      0x2               ./host_drv/socket/source/socket.o (symbol from plugin)
+gstrTaskApp         0x28              ./app_src/app_main.o (symbol from plugin)
+gsockerrno          0x1               ./host_drv/socket/source/socket.o (symbol from plugin)
+gu8OpCode           0x1               ./host_drv/socket/source/socket.o (symbol from plugin)
+gau8StackApp        0x400             ./app_src/app_main.o (symbol from plugin)
+gfpPingCb           0x4               ./host_drv/socket/source/socket.o (symbol from plugin)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 ./host_drv/socket/source/socket.o (symbol from plugin)
+ .text          0x00000000        0x0 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans0.ltrans.o
+ .data          0x00000000        0x0 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans0.ltrans.o
+ .bss           0x00000000        0x0 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans0.ltrans.o
+ .sbss          0x00000000        0x0 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans0.ltrans.o
+ .text          0x00000000        0x0 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans1.ltrans.o
+ .data          0x00000000        0x0 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans1.ltrans.o
+ .bss           0x00000000        0x0 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans1.ltrans.o
+ .sbss          0x00000000        0x0 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans1.ltrans.o
+ .text.hif_register_cb.part.1.1722
+                0x00000000       0x62 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans1.ltrans.o
+ .bss.gu16BufferSize.1638
+                0x00000000        0x2 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans1.ltrans.o
+ .bss.gu8OpCode.1637
+                0x00000000        0x1 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans1.ltrans.o
+ .bss.gsockerrno.1636
+                0x00000000        0x1 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans1.ltrans.o
+ .rodata.__FUNCTION__.2383.1782.1632
+                0x00000000       0x10 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans1.ltrans.o
+ .text          0x00000000        0x0 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans2.ltrans.o
+ .data          0x00000000        0x0 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans2.ltrans.o
+ .bss           0x00000000        0x0 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans2.ltrans.o
+ .sbss          0x00000000        0x0 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans2.ltrans.o
+ .text          0x00000000        0x0 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans3.ltrans.o
+ .data          0x00000000        0x0 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans3.ltrans.o
+ .bss           0x00000000        0x0 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans3.ltrans.o
+ .sbss          0x00000000        0x0 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans3.ltrans.o
+ .text          0x00000000        0x0 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans4.ltrans.o
+ .data          0x00000000        0x0 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans4.ltrans.o
+ .bss           0x00000000        0x0 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans4.ltrans.o
+ .sbss          0x00000000        0x0 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans4.ltrans.o
+ .text          0x00000000        0x0 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans5.ltrans.o
+ .data          0x00000000        0x0 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans5.ltrans.o
+ .bss           0x00000000        0x0 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans5.ltrans.o
+ .sbss          0x00000000        0x0 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans5.ltrans.o
+ .text          0x00000000        0x0 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans6.ltrans.o
+ .data          0x00000000        0x0 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans6.ltrans.o
+ .bss           0x00000000        0x0 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans6.ltrans.o
+ .sbss          0x00000000        0x0 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans6.ltrans.o
+ .text          0x00000000        0x0 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans7.ltrans.o
+ .data          0x00000000        0x0 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans7.ltrans.o
+ .bss           0x00000000        0x0 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans7.ltrans.o
+ .sbss          0x00000000        0x0 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans7.ltrans.o
+ .text          0x00000000        0x0 c:/cortus-ide_new/toolchain/bin/../lib/gcc/aps/4.7.3/aps1\libgcc.a(_modsi3.o)
+ .data          0x00000000        0x0 c:/cortus-ide_new/toolchain/bin/../lib/gcc/aps/4.7.3/aps1\libgcc.a(_modsi3.o)
+ .bss           0x00000000        0x0 c:/cortus-ide_new/toolchain/bin/../lib/gcc/aps/4.7.3/aps1\libgcc.a(_modsi3.o)
+ .sbss          0x00000000        0x0 c:/cortus-ide_new/toolchain/bin/../lib/gcc/aps/4.7.3/aps1\libgcc.a(_modsi3.o)
+ .text          0x00000000        0x0 c:/cortus-ide_new/toolchain/bin/../lib/gcc/aps/4.7.3/aps1\libgcc.a(_switch.o)
+ .data          0x00000000        0x0 c:/cortus-ide_new/toolchain/bin/../lib/gcc/aps/4.7.3/aps1\libgcc.a(_switch.o)
+ .bss           0x00000000        0x0 c:/cortus-ide_new/toolchain/bin/../lib/gcc/aps/4.7.3/aps1\libgcc.a(_switch.o)
+ .sbss          0x00000000        0x0 c:/cortus-ide_new/toolchain/bin/../lib/gcc/aps/4.7.3/aps1\libgcc.a(_switch.o)
+ .text          0x00000000        0x0 c:/cortus-ide_new/toolchain/bin/../lib/gcc/aps/4.7.3/aps1\libgcc.a(_divsi3.o)
+ .data          0x00000000        0x0 c:/cortus-ide_new/toolchain/bin/../lib/gcc/aps/4.7.3/aps1\libgcc.a(_divsi3.o)
+ .bss           0x00000000        0x0 c:/cortus-ide_new/toolchain/bin/../lib/gcc/aps/4.7.3/aps1\libgcc.a(_divsi3.o)
+ .sbss          0x00000000        0x0 c:/cortus-ide_new/toolchain/bin/../lib/gcc/aps/4.7.3/aps1\libgcc.a(_divsi3.o)
+ .text          0x00000000        0x0 c:/cortus-ide_new/toolchain/bin/../lib/gcc/aps/4.7.3/aps1\libgcc.a(_udivsi3.o)
+ .data          0x00000000        0x0 c:/cortus-ide_new/toolchain/bin/../lib/gcc/aps/4.7.3/aps1\libgcc.a(_udivsi3.o)
+ .bss           0x00000000        0x0 c:/cortus-ide_new/toolchain/bin/../lib/gcc/aps/4.7.3/aps1\libgcc.a(_udivsi3.o)
+ .sbss          0x00000000        0x0 c:/cortus-ide_new/toolchain/bin/../lib/gcc/aps/4.7.3/aps1\libgcc.a(_udivsi3.o)
+ .text          0x00000000        0x0 ./host_drv/driver/source/m2m_ate_mode.o (symbol from plugin)
+ .text          0x00000000        0x0 ./host_drv/driver/source/m2m_crypto.o (symbol from plugin)
+ .text          0x00000000        0x0 ./host_drv/driver/source/m2m_hif_crt.o (symbol from plugin)
+ .text          0x00000000        0x0 ./host_drv/driver/source/m2m_ota.o (symbol from plugin)
+ .text          0x00000000        0x0 ./host_drv/driver/source/m2m_periph.o (symbol from plugin)
+ .text          0x00000000        0x0 ./host_drv/driver/source/m2m_wifi.o (symbol from plugin)
+ .text          0x00000000        0x0 ./host_drv/driver/source/nmasic_crt.o (symbol from plugin)
+ .text          0x00000000        0x0 ./host_drv/driver/source/nmbus_crt.o (symbol from plugin)
+ .text          0x00000000        0x0 ./host_drv/driver/source/nmdrv_crt.o (symbol from plugin)
+ .text          0x00000000        0x0 ./host_drv/common/source/nm_common.o (symbol from plugin)
+ .text          0x00000000        0x0 ./host_aps/led_btn_demo/led_btn_demo.o (symbol from plugin)
+ .text          0x00000000        0x0 ./host_aps/hash/Hash.o (symbol from plugin)
+ .text          0x00000000        0x0 ./host_aps/growl/source/growl.o (symbol from plugin)
+ .text          0x00000000        0x0 ./cortus_cmn/cortus_periph/source/nmi_btn.o (symbol from plugin)
+ .text          0x00000000        0x0 ./cortus_cmn/cortus_periph/source/nmi_gpio.o (symbol from plugin)
+ .text          0x00000000        0x0 ./cortus_cmn/cortus_periph/source/nmi_i2c.o (symbol from plugin)
+ .text          0x00000000        0x0 ./cortus_cmn/cortus_periph/source/nmi_pwm.o (symbol from plugin)
+ .text          0x00000000        0x0 ./cortus_cmn/cortus_periph/source/nmi_spi.o (symbol from plugin)
+ .text          0x00000000        0x0 ./cortus_cmn/cortus_periph/source/nmi_uart.o (symbol from plugin)
+ .text          0x00000000        0x0 ./cortus_cmn/cortus_iface/crt_iface.o (symbol from plugin)
+ .text          0x00000000        0x0 ./app_src/app_main.o (symbol from plugin)
+ .text          0x00000000        0x0 ./app_src/main_crt0.o (symbol from plugin)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+app_memory       0x60000000         0x00010000         !xr
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+                [0x00000000]                _STACK_SIZE = DEFINED (_STACK_SIZE)?_STACK_SIZE:0x10000
+                [0x00000000]                _HEAP_SIZE = DEFINED (_HEAP_SIZE)?_HEAP_SIZE:0x10000
+                [0x00080000]                _PROGRAM_MEMORY_SIZE = DEFINED (_PROGRAM_MEMORY_SIZE)?_PROGRAM_MEMORY_SIZE:0x80000
+                [0x00080000]                _DATA_MEMORY_SIZE = DEFINED (_DATA_MEMORY_SIZE)?_DATA_MEMORY_SIZE:0x80000
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+
+.rela.text
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+
+.rela.rodata
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+
+.rel.srodata
+ *(.rel.srodata .rel.srodata.* .rel.gnu.linkonce.sr.*)
+
+.rela.srodata
+ *(.rela.srodata .rela.srodata.* .rela.gnu.linkonce.sr.*)
+
+.rel.data.rel.ro
+ *(.rel.data.rel.ro* .rel.gnu.linkonce.d.rel.ro.*)
+
+.rela.data.rel.ro
+ *(.rela.data.rel.ro* .rela.gnu.linkonce.d.rel.ro.*)
+
+.rel.data
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.b.*)
+
+.rela.data
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ *(.rela.data .rela.bss.* .rela.gnu.linkonce.b.*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.bss
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+
+.rela.bss
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+
+.rel.sbss
+ *(.rel.sbss .rel.sbss.* .rel.gnu.linkonce.sb.*)
+
+.rela.sbss
+ *(.rela.sbss .rela.sbss.* .rela.gnu.linkonce.sb.*)
+
+.rel.sdata
+ *(.rel.sdata .rel.sdata.* .rel.gnu.linkonce.s.*)
+
+.rela.sdata
+ *(.rela.sdata .rela.bss.* .rela.gnu.linkonce.s.*)
+
+.rel.vectors
+ *(.rel.vectors .rel.vectors.*)
+
+.rela.vectors
+ *(.rela.vectors .rela.vectors.*)
+
+.text           0x60000000     0x51a8
+                0x60000000                PROVIDE (_program_memory_start, .)
+                0x60000000                PROVIDE (_text, .)
+ *(.init .init.*)
+ .init          0x60000000       0xc6 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans7.ltrans.o
+                0x60000000                app_init
+ *(.text .text.* .libgcc .gnu.linkonce.t.*)
+ *fill*         0x600000c6        0x2 00
+ .text.app_start
+                0x600000c8      0xaaa C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans0.ltrans.o
+                0x600000c8                app_start
+ *fill*         0x60000b72        0x2 00
+ .text.gpio_isr_handler.3300
+                0x60000b74       0x56 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans1.ltrans.o
+                0x60000b74                gpio_isr_handler.3300
+ *fill*         0x60000bca        0x2 00
+ .text.hif_Resp_handler
+                0x60000bcc       0xba C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans1.ltrans.o
+                0x60000bcc                hif_Resp_handler
+ *fill*         0x60000c86        0x2 00
+ .text.m2m_memset.constprop.32
+                0x60000c88       0x14 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans1.ltrans.o
+                0x60000c88                m2m_memset.constprop.32
+ .text.chip_apply_conf
+                0x60000c9c       0x18 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans1.ltrans.o
+                0x60000c9c                chip_apply_conf
+ .text.nm_gpio_output_ctrl
+                0x60000cb4       0x7c C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans1.ltrans.o
+                0x60000cb4                nm_gpio_output_ctrl
+ .text.Encode   0x60000d30       0x82 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans1.ltrans.o
+                0x60000d30                Encode
+ *fill*         0x60000db2        0x2 00
+ .text.m2m_memcmp
+                0x60000db4       0x22 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans1.ltrans.o
+                0x60000db4                m2m_memcmp
+ *fill*         0x60000dd6        0x2 00
+ .text.m2m_strlen
+                0x60000dd8       0x14 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans1.ltrans.o
+                0x60000dd8                m2m_strlen
+ .text.m2m_validate_ap_parameters.2059.constprop.21
+                0x60000dec      0x246 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans1.ltrans.o
+                0x60000dec                m2m_validate_ap_parameters.2059.constprop.21
+ *fill*         0x60001032        0x2 00
+ .text.set_dev_name_to_mac.3909
+                0x60001034       0x88 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans1.ltrans.o
+                0x60001034                set_dev_name_to_mac.3909
+ .text.m2m_strstr
+                0x600010bc       0x54 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans1.ltrans.o
+                0x600010bc                m2m_strstr
+ .text.m2m_memcpy.part.0.2726
+                0x60001110       0x16 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans1.ltrans.o
+                0x60001110                m2m_memcpy.part.0.2726
+ *fill*         0x60001126        0x2 00
+ .text.m2m_memcpy
+                0x60001128       0x12 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans1.ltrans.o
+                0x60001128                m2m_memcpy
+ *fill*         0x6000113a        0x2 00
+ .text.hif_send
+                0x6000113c      0x11c C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans1.ltrans.o
+                0x6000113c                hif_send
+ .text.close    0x60001258       0xc6 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans1.ltrans.o
+                0x60001258                close
+ *fill*         0x6000131e        0x2 00
+ .text.socket.constprop.31
+                0x60001320      0x158 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans1.ltrans.o
+                0x60001320                socket.constprop.31
+ .text.send.constprop.26
+                0x60001478       0x9a C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans1.ltrans.o
+                0x60001478                send.constprop.26
+ *fill*         0x60001512        0x2 00
+ .text.recvfrom.constprop.24
+                0x60001514       0x90 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans1.ltrans.o
+                0x60001514                recvfrom.constprop.24
+ .text.m2m_wifi_request_scan.constprop.16
+                0x600015a4       0x46 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans1.ltrans.o
+                0x600015a4                m2m_wifi_request_scan.constprop.16
+ *fill*         0x600015ea        0x2 00
+ .text.app_wifi_connect.3913
+                0x600015ec       0x1a C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans1.ltrans.o
+                0x600015ec                app_wifi_connect.3913
+ *fill*         0x60001606        0x2 00
+ .text.m2m_wifi_set_device_name.constprop.11
+                0x60001608       0x4a C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans1.ltrans.o
+                0x60001608                m2m_wifi_set_device_name.constprop.11
+ *fill*         0x60001652        0x2 00
+ .text.gethostbyname
+                0x60001654       0x42 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans1.ltrans.o
+                0x60001654                gethostbyname
+ *fill*         0x60001696        0x2 00
+ .text.NMI_GrowlSendNotification.constprop.6
+                0x60001698      0x296 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans1.ltrans.o
+                0x60001698                NMI_GrowlSendNotification.constprop.6
+ *fill*         0x6000192e        0x2 00
+ .text.recv     0x60001930       0xa2 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans1.ltrans.o
+                0x60001930                recv
+ *fill*         0x600019d2        0x2 00
+ .text.m2m_wifi_req_scan_result
+                0x600019d4       0x2e C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans1.ltrans.o
+                0x600019d4                m2m_wifi_req_scan_result
+ *fill*         0x60001a02        0x2 00
+ .text.socketInit.part.2.1380
+                0x60001a04       0x3c C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans1.ltrans.o
+                0x60001a04                socketInit.part.2.1380
+ .text.btn_poll.3211
+                0x60001a40       0xac C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans2.ltrans.o
+                0x60001a40                btn_poll.3211
+ .text.wifi_cb.3935
+                0x60001aec      0x996 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans2.ltrans.o
+                0x60001aec                wifi_cb.3935
+ *fill*         0x60002482        0x2 00
+ .text.P2P_APPSocketEventHandler.2792
+                0x60002484      0x2fc C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans2.ltrans.o
+                0x60002484                P2P_APPSocketEventHandler.2792
+ .text.m2m_wifi_cb.2049
+                0x60002780      0x2e0 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans3.ltrans.o
+                0x60002780                m2m_wifi_cb.2049
+ .text.m2m_ip_cb.1344
+                0x60002a60      0x384 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans3.ltrans.o
+                0x60002a60                m2m_ip_cb.1344
+ .text.led_ctl.3917
+                0x60002de4      0x114 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans3.ltrans.o
+                0x60002de4                led_ctl.3917
+ .text.GrowlCb  0x60002ef8       0xa0 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans3.ltrans.o
+                0x60002ef8                GrowlCb
+ .text.tcp_cb.3899
+                0x60002f98      0x150 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans3.ltrans.o
+                0x60002f98                tcp_cb.3899
+ .text.btn_cb.3902
+                0x600030e8       0xa6 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans3.ltrans.o
+                0x600030e8                btn_cb.3902
+ *fill*         0x6000318e        0x2 00
+ .text.app_wifi_start_stop_prov.part.4.3927.1346
+                0x60003190       0xf0 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans4.ltrans.o
+ .text.timer_callback.3896
+                0x60003280       0x48 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans4.ltrans.o
+                0x60003280                timer_callback.3896
+ .text.AppServerCb
+                0x600032c8      0x1ca C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans4.ltrans.o
+                0x600032c8                AppServerCb
+ *fill*         0x60003492        0x2 00
+ .text.GROWL_APPSocketEventHandler
+                0x60003494      0x3b8 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans4.ltrans.o
+                0x60003494                GROWL_APPSocketEventHandler
+ .text.app_wifi_start_stop_prov.3929
+                0x6000384c       0x56 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans4.ltrans.o
+                0x6000384c                app_wifi_start_stop_prov.3929
+ *fill*         0x600038a2        0x2 00
+ .text.bind.constprop.30
+                0x600038a4       0x6c C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans4.ltrans.o
+                0x600038a4                bind.constprop.30
+ .text.m2m_wifi_connect_sc.constprop.17
+                0x60003910      0x336 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans4.ltrans.o
+                0x60003910                m2m_wifi_connect_sc.constprop.17
+ *fill*         0x60003c46        0x2 00
+ .text.app_main_context
+                0x60003c48      0x498 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans5.ltrans.o
+                0x60003c48                app_main_context
+ .text.nm_get_firmware_full_info
+                0x600040e0       0xb0 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans5.ltrans.o
+                0x600040e0                nm_get_firmware_full_info
+ .text.LedBtnDemo_AppStart.constprop.8
+                0x60004190      0x196 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans5.ltrans.o
+                0x60004190                LedBtnDemo_AppStart.constprop.8
+ *fill*         0x60004326        0x2 00
+ .text.btn1_isr.3214
+                0x60004328       0xcc C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans6.ltrans.o
+                0x60004328                btn1_isr.3214
+ .libgcc        0x600043f4        0xa c:/cortus-ide_new/toolchain/bin/../lib/gcc/aps/4.7.3/aps1\libgcc.a(_modsi3.o)
+                0x600043f4                __modsi3
+ .libgcc        0x600043fe       0x20 c:/cortus-ide_new/toolchain/bin/../lib/gcc/aps/4.7.3/aps1\libgcc.a(_switch.o)
+                0x600043fe                __switch
+ .libgcc        0x6000441e       0x34 c:/cortus-ide_new/toolchain/bin/../lib/gcc/aps/4.7.3/aps1\libgcc.a(_divsi3.o)
+                0x6000441e                __divsi3
+ .libgcc        0x60004452      0x1c4 c:/cortus-ide_new/toolchain/bin/../lib/gcc/aps/4.7.3/aps1\libgcc.a(_udivsi3.o)
+                0x60004452                __udivsi3
+ *(.fini .fini.*)
+                0x60004618                . = ALIGN (0x4)
+ *fill*         0x60004616        0x2 00
+                0x60004618                PROVIDE (_rodata, .)
+ *(.rodata)
+ *(SORT(.rodata.*))
+ .rodata.str1.4
+                0x60004618      0x240 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans0.ltrans.o
+                                0x2a0 (size before relaxing)
+ .rodata.__FUNCTION__.2775.4048.1688
+                0x60004858        0xa C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans0.ltrans.o
+ *fill*         0x60004862        0x2 00
+ .rodata.__FUNCTION__.2175.2661.1740
+                0x60004864        0xc C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.2335.2296.1724
+                0x60004870        0xe C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans0.ltrans.o
+ *fill*         0x6000487e        0x2 00
+ .rodata.str1.4
+                0x60004880      0x1f6 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans1.ltrans.o
+                                0x21a (size before relaxing)
+ *fill*         0x60004a76        0x2 00
+ .rodata.__FUNCTION__.2435.3112.1606
+                0x60004a78       0x1a C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans1.ltrans.o
+ *fill*         0x60004a92        0x2 00
+ .rodata.__FUNCTION__.2319.2294.1609
+                0x60004a94       0x1b C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans1.ltrans.o
+ *fill*         0x60004aaf        0x1 00
+ .rodata.gau8HexDigits.3172.1617
+                0x60004ab0       0x11 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans1.ltrans.o
+ *fill*         0x60004ac1        0x3 00
+ .rodata.__FUNCTION__.2338.1781.1619
+                0x60004ac4        0x9 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans1.ltrans.o
+ *fill*         0x60004acd        0x3 00
+ .rodata.__FUNCTION__.2360.1785.1630
+                0x60004ad0       0x11 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans1.ltrans.o
+ *fill*         0x60004ae1        0x3 00
+ .rodata.str1.4
+                0x60004ae4      0x265 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans2.ltrans.o
+                                0x28d (size before relaxing)
+ *fill*         0x60004d49        0x3 00
+ .rodata.__FUNCTION__.2734.4043.1564
+                0x60004d4c        0x8 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans2.ltrans.o
+ .rodata.__FUNCTION__.2364.2836.1605
+                0x60004d54       0x17 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans2.ltrans.o
+ *fill*         0x60004d6b        0x1 00
+ .rodata.__FUNCTION__.2352.2837.1589
+                0x60004d6c       0x17 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans2.ltrans.o
+ *fill*         0x60004d83        0x1 00
+ .rodata.str1.4
+                0x60004d84       0x9f C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans3.ltrans.o
+                                 0xcf (size before relaxing)
+ *fill*         0x60004e23        0x1 00
+ .rodata.__FUNCTION__.2310.2295.1501
+                0x60004e24        0xc C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans3.ltrans.o
+ .rodata.BITS_t.1521
+                0x60004e30        0x8 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans3.ltrans.o
+ .rodata.str1.4
+                0x60004e38      0x1c0 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans4.ltrans.o
+                                0x204 (size before relaxing)
+ .rodata.__FUNCTION__.2531.2298.1564
+                0x60004ff8       0x1e C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans4.ltrans.o
+ *fill*         0x60005016        0x2 00
+ .rodata.__FUNCTION__.2407.3108.1577
+                0x60005018       0x1c C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans4.ltrans.o
+ .rodata.__FUNCTION__.2422.3107.1588
+                0x60005034        0xc C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans4.ltrans.o
+ .rodata.__FUNCTION__.2363.2300.1589
+                0x60005040       0x14 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans4.ltrans.o
+ .rodata.str1.4
+                0x60005054       0xb3 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans5.ltrans.o
+                                 0xe3 (size before relaxing)
+ *fill*         0x60005107        0x1 00
+ .rodata.__FUNCTION__.2344.2835.1639
+                0x60005108       0x10 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans5.ltrans.o
+ .rodata.__FUNCTION__.2339.2833.1628
+                0x60005118       0x10 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans5.ltrans.o
+ .rodata.__FUNCTION__.2750.4047.1658
+                0x60005128       0x16 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans5.ltrans.o
+ *fill*         0x6000513e        0x2 00
+ .rodata.__FUNCTION__.2345.1780.1657
+                0x60005140        0x8 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans5.ltrans.o
+ .rodata.str1.4
+                0x60005148       0x22 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans6.ltrans.o
+                                 0x3a (size before relaxing)
+ *fill*         0x6000516a        0x2 00
+ .rodata.__FUNCTION__.1700.3236.1407
+                0x6000516c        0x9 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans6.ltrans.o
+ *fill*         0x60005175        0x3 00
+ .rodata.str1.4
+                0x60005178       0x30 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans7.ltrans.o
+                                 0x31 (size before relaxing)
+ *(.gnu.linkonce.r.*)
+ *(.gcc_except_table)
+ *(SORT(.gcc_except_table.*))
+                0x600051a8                . = ALIGN (0x4)
+                0x600051a8                _erodata = .
+                0x600051a8                PROVIDE (_etext, .)
+
+.data           0x600051a8      0x19c
+                0x600051a8                PROVIDE (_data_memory_start, .)
+                0x600051a8                PROVIDE (_sdata, .)
+ *(.sdata)
+ *(SORT(.sdata.*))
+ *(SORT(.gnu.linkonce.s.*))
+                0x600051a8                . = ALIGN (0x4)
+                0x600051a8                PROVIDE (_esdata, .)
+                0x600051a8                PROVIDE (_srodata, .)
+ *(.srodata)
+ *(SORT(.srodata.*))
+ *(.gnu.linkonce.sr.*)
+                0x600051a8                . = ALIGN (0x4)
+                0x600051a8                _esrodata = .
+                0x600051a8                PROVIDE (__CTOR_LIST__, .)
+ *(.ctors)
+                0x600051a8                PROVIDE (__CTOR_END__, .)
+                0x600051a8                PROVIDE (__DTOR_LIST__, .)
+ *(.dtors)
+                0x600051a8                PROVIDE (__DTOR_END__, .)
+                0x600051a8                PROVIDE (_data, .)
+ *(.data)
+ *(SORT(.data.*))
+ .data.gacDeviceName.4044
+                0x600051a8        0xf C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans0.ltrans.o
+                0x600051a8                gacDeviceName.4044
+ *fill*         0x600051b7        0x1 00
+ .data.gastrPreferredAPList.4093.1565
+                0x600051b8       0xdc C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans2.ltrans.o
+ .data.gstrM2MAPConfig.4042
+                0x60005294       0x48 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans0.ltrans.o
+                0x60005294                gstrM2MAPConfig.4042
+ .data.TcpNotificationSocket.2903
+                0x600052dc        0x1 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans2.ltrans.o
+                0x600052dc                TcpNotificationSocket.2903
+ .data.TcpServerListenSocket.2843
+                0x600052dd        0x1 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans2.ltrans.o
+                0x600052dd                TcpServerListenSocket.2843
+ .data.udpServerSocket.2902
+                0x600052de        0x1 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans2.ltrans.o
+                0x600052de                udpServerSocket.2902
+ .data.genuActReq.4085
+                0x600052df        0x1 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans2.ltrans.o
+                0x600052df                genuActReq.4085
+ .data.gstrWepParams.4105.1577
+                0x600052e0       0x20 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans2.ltrans.o
+ .data.gstrCred1x.4110.1585
+                0x60005300       0x3e C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans2.ltrans.o
+ .data.u8Retry.2399.3175.1497
+                0x6000533e        0x1 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans4.ltrans.o
+ .data.u8Error.2404.3176.1498
+                0x6000533f        0x1 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans4.ltrans.o
+ .data.u8Retry.2423.3171.1494
+                0x60005340        0x1 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans4.ltrans.o
+ *(SORT(.patchtable.*))
+ *(SORT(.gnu.linkonce.d.*))
+                0x60005344                . = ALIGN (0x4)
+ *fill*         0x60005341        0x3 00
+                0x60005344                PROVIDE (_edata, .)
+
+.bss            0x60005344      0x7b0
+                0x60005344                PROVIDE (_sbss, .)
+ *(.sbss)
+ *(.scommon)
+ *(SORT(.sbss.*))
+ *(SORT(.scommon.*))
+ *(SORT(.gnu.linkonce.sb.*))
+                0x60005344                . = ALIGN (0x4)
+                0x60005344                PROVIDE (_esbss, .)
+                0x60005344                PROVIDE (_bss, .)
+ *(.bss)
+ *(SORT(.bss.*))
+ .bss.gstrAppReqList.1783
+                0x60005344       0xf4 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans0.ltrans.o
+                0x60005344                gstrAppReqList.1783
+ .bss.pfHifCb   0x60005438        0x4 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans0.ltrans.o
+                0x60005438                pfHifCb
+ .bss.pfOtaCb   0x6000543c        0x4 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans0.ltrans.o
+                0x6000543c                pfOtaCb
+ .bss.pfWifiCb  0x60005440        0x4 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans0.ltrans.o
+                0x60005440                pfWifiCb
+ .bss.pfIpCb    0x60005444        0x4 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans0.ltrans.o
+                0x60005444                pfIpCb
+ .bss.gpfAppWifiCb.2361
+                0x60005448        0x4 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans0.ltrans.o
+                0x60005448                gpfAppWifiCb.2361
+ .bss.gpfAppResolveCb
+                0x6000544c        0x4 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans0.ltrans.o
+                0x6000544c                gpfAppResolveCb
+ .bss.gpfAppSocketCb
+                0x60005450        0x4 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans0.ltrans.o
+                0x60005450                gpfAppSocketCb
+ .bss.gstrNotificationNMA.3110
+                0x60005454       0x14 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans0.ltrans.o
+                0x60005454                gstrNotificationNMA.3110
+ .bss.gstrNotificationProwl.3111
+                0x60005468       0x14 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans0.ltrans.o
+                0x60005468                gstrNotificationProwl.3111
+ .bss.gau8NmaKey.3173
+                0x6000547c        0x4 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans0.ltrans.o
+                0x6000547c                gau8NmaKey.3173
+ .bss.gau8PrwKey.3174
+                0x60005480        0x4 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans0.ltrans.o
+                0x60005480                gau8PrwKey.3174
+ .bss.gstrNmIsr.3385
+                0x60005484       0x6c C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans0.ltrans.o
+                0x60005484                gstrNmIsr.3385
+ .bss.gstrTimerLed.4040
+                0x600054f0       0x20 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans0.ltrans.o
+                0x600054f0                gstrTimerLed.4040
+ .bss.chipid.1605.2577.1741
+                0x60005510        0x4 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans0.ltrans.o
+ .bss.gstrTaskApp.1701
+                0x60005514       0x28 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans0.ltrans.o
+ .bss.gau8StackApp.1702
+                0x6000553c      0x400 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans0.ltrans.o
+ .bss.gstrTimerBtn.3235
+                0x6000593c       0x20 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans2.ltrans.o
+                0x6000593c                gstrTimerBtn.3235
+ .bss.gpfBtns.3289
+                0x6000595c        0x4 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans2.ltrans.o
+                0x6000595c                gpfBtns.3289
+ .bss.gpfLedBtnDemoCb
+                0x60005960        0x4 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans2.ltrans.o
+                0x60005960                gpfLedBtnDemoCb
+ .bss.gastrSockets
+                0x60005964       0xb0 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans2.ltrans.o
+                0x60005964                gastrSockets
+ .bss.gau8RxBuffer.2834
+                0x60005a14        0x4 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans2.ltrans.o
+                0x60005a14                gau8RxBuffer.2834
+ .bss.gstrAppSem
+                0x60005a18        0xc C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans2.ltrans.o
+                0x60005a18                gstrAppSem
+ .bss.gfpPingCb.1518
+                0x60005a24        0x4 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans3.ltrans.o
+ .bss.au8Msg.3109.1576
+                0x60005a28       0x48 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans4.ltrans.o
+ .bss.gstrFirmLibOut
+                0x60005a70       0x6c C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans7.ltrans.o
+                0x60005a70                gstrFirmLibOut
+ .bss.gu16Btn1Cnt.3287
+                0x60005adc        0x2 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans2.ltrans.o
+                0x60005adc                gu16Btn1Cnt.3287
+ .bss.gu16SessionID
+                0x60005ade        0x2 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans3.ltrans.o
+                0x60005ade                gu16SessionID
+ .bss.gu8scanInProgress.2362
+                0x60005ae0        0x1 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans0.ltrans.o
+                0x60005ae0                gu8scanInProgress.2362
+ .bss.gbSocketInit
+                0x60005ae1        0x1 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans0.ltrans.o
+                0x60005ae1                gbSocketInit
+ .bss.u8NextUdpSock.2377.1553.1608
+                0x60005ae2        0x1 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans1.ltrans.o
+ .bss.u8NextTcpSock.2376.1552.1607
+                0x60005ae3        0x1 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans1.ltrans.o
+ .bss.gu8BTactive.3237
+                0x60005ae4        0x1 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans2.ltrans.o
+                0x60005ae4                gu8BTactive.3237
+ .bss.gu8BtnIfg.3286
+                0x60005ae5        0x1 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans2.ltrans.o
+                0x60005ae5                gu8BtnIfg.3286
+ .bss.gu8ChNum.2363
+                0x60005ae6        0x1 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans2.ltrans.o
+                0x60005ae6                gu8ChNum.2363
+ .bss.gu8ConnectList.4091
+                0x60005ae7        0x1 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans2.ltrans.o
+                0x60005ae7                gu8ConnectList.4091
+ .bss.gu8Prov.4090
+                0x60005ae8        0x1 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans2.ltrans.o
+                0x60005ae8                gu8Prov.4090
+ .bss.gbWpsActive.4112
+                0x60005ae9        0x1 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans2.ltrans.o
+                0x60005ae9                gbWpsActive.4112
+ .bss.gu8App.4049
+                0x60005aea        0x1 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans2.ltrans.o
+                0x60005aea                gu8App.4049
+ .bss.gbWifiConnected.4086
+                0x60005aeb        0x1 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans2.ltrans.o
+                0x60005aeb                gbWifiConnected.4086
+ .bss.gu8Sleep.4089
+                0x60005aec        0x1 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans2.ltrans.o
+                0x60005aec                gu8Sleep.4089
+ .bss.u8Socket_Opened.4111.1501
+                0x60005aed        0x1 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans2.ltrans.o
+ .bss.u8index.4092.1500
+                0x60005aee        0x1 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans2.ltrans.o
+ .bss.on.4084.1432
+                0x60005aef        0x1 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans3.ltrans.o
+ .bss.gu8TimActive.4081.1430
+                0x60005af0        0x1 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans3.ltrans.o
+ .bss.gu8ActiveBlink.4082
+                0x60005af1        0x1 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans4.ltrans.o
+                0x60005af1                gu8ActiveBlink.4082
+ .bss.gbNmaActive.4088
+                0x60005af2        0x1 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans5.ltrans.o
+                0x60005af2                gbNmaActive.4088
+ .bss.gbProwlActive.4087
+                0x60005af3        0x1 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans5.ltrans.o
+                0x60005af3                gbProwlActive.4087
+ *(SORT(.gnu.linkonce.b.*))
+ *(SORT(COMMON))
+                0x60005af4                . = ALIGN (0x4)
+                0x60005af4                __heap_bottom = .
+                0x60005af4                . = (. + _HEAP_SIZE)
+                0x60005af4                __heap_top = .
+                0x60005af4                . = ALIGN (0x4)
+                0x60005af4                __stack_bottom = .
+                0x60005af4                . = (. + _STACK_SIZE)
+                0x60005af4                __stack_top = .
+                0x60005af4                . = ALIGN (0x4)
+                0x60005af4                _ebss = .
+                0x60005af4                _end = .
+                0x60005af4                PROVIDE (end, .)
+
+.noinit         0x60005af4        0x0
+                0x60005af4                PROVIDE (__noinit_start, .)
+ *(.noinit .noinit.*)
+                0x60005af4                PROVIDE (__noinit_end, .)
+                0x60005af4                PROVIDE (_data_memory_end, .)
+                0x600051a8                _sdata_size = _esrodata
+                0x000051a8                _program_memory_size = SIZEOF (.text)
+                0x0000094c                _data_memory_size = (SIZEOF (.data) + SIZEOF (.bss))
+                0x00000001                _dummy = ASSERT ((_program_memory_size <= _PROGRAM_MEMORY_SIZE), Run out of space in program memory )
+                0x00000001                _dummy = ASSERT ((_data_memory_size <= _DATA_MEMORY_SIZE), Run out of space in data memory)
+                0x00000001                _dummy = ASSERT (! (((DEFINED (aps_malloc) || DEFINED (aps_malloc_dbg)) && DEFINED (malloc))), Warning: Using a mixture of newlib heap and Cortus heap)
+                0x00000001                _dummy = ASSERT (! ((DEFINED (aps_malloc) && DEFINED (aps_malloc_dbg))), Warning: Some but not all code compiled with DEBUG_HEAP defined)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x23
+ *(.comment)
+ .comment       0x00000000       0x23 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans0.ltrans.o
+                                 0x24 (size before relaxing)
+ .comment       0x00000000       0x24 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans1.ltrans.o
+ .comment       0x00000000       0x24 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans2.ltrans.o
+ .comment       0x00000000       0x24 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans3.ltrans.o
+ .comment       0x00000000       0x24 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans4.ltrans.o
+ .comment       0x00000000       0x24 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans5.ltrans.o
+ .comment       0x00000000       0x24 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans6.ltrans.o
+ .comment       0x00000000       0x24 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans7.ltrans.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x248
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x20 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans0.ltrans.o
+ .debug_aranges
+                0x00000020       0xf0 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans1.ltrans.o
+ .debug_aranges
+                0x00000110       0x30 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans2.ltrans.o
+ .debug_aranges
+                0x00000140       0x48 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans3.ltrans.o
+ .debug_aranges
+                0x00000188       0x50 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans4.ltrans.o
+ .debug_aranges
+                0x000001d8       0x30 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans5.ltrans.o
+ .debug_aranges
+                0x00000208       0x20 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans6.ltrans.o
+ .debug_aranges
+                0x00000228       0x20 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans7.ltrans.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0xef7a
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000     0x3107 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans0.ltrans.o
+ .debug_info    0x00003107     0x2718 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans1.ltrans.o
+ .debug_info    0x0000581f     0x2162 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans2.ltrans.o
+ .debug_info    0x00007981     0x256a C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans3.ltrans.o
+ .debug_info    0x00009eeb     0x231f C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans4.ltrans.o
+ .debug_info    0x0000c20a     0x1cf1 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans5.ltrans.o
+ .debug_info    0x0000defb      0x87e C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans6.ltrans.o
+ .debug_info    0x0000e779      0x801 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans7.ltrans.o
+
+.debug_abbrev   0x00000000     0x1dcb
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x4b4 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans0.ltrans.o
+ .debug_abbrev  0x000004b4      0x4e4 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans1.ltrans.o
+ .debug_abbrev  0x00000998      0x41c C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans2.ltrans.o
+ .debug_abbrev  0x00000db4      0x389 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans3.ltrans.o
+ .debug_abbrev  0x0000113d      0x471 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans4.ltrans.o
+ .debug_abbrev  0x000015ae      0x4c6 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans5.ltrans.o
+ .debug_abbrev  0x00001a74      0x1f2 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans6.ltrans.o
+ .debug_abbrev  0x00001c66      0x165 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans7.ltrans.o
+
+.debug_line     0x00000000     0x4d8f
+ *(.debug_line)
+ .debug_line    0x00000000      0xa6e C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans0.ltrans.o
+ .debug_line    0x00000a6e     0x134b C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans1.ltrans.o
+ .debug_line    0x00001db9      0xb25 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans2.ltrans.o
+ .debug_line    0x000028de      0xb7e C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans3.ltrans.o
+ .debug_line    0x0000345c      0xbcb C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans4.ltrans.o
+ .debug_line    0x00004027      0xa55 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans5.ltrans.o
+ .debug_line    0x00004a7c      0x1af C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans6.ltrans.o
+ .debug_line    0x00004c2b      0x164 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans7.ltrans.o
+
+.debug_frame    0x00000000      0x714
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x40 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans0.ltrans.o
+ .debug_frame   0x00000040      0x350 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans1.ltrans.o
+ .debug_frame   0x00000390       0x84 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans2.ltrans.o
+ .debug_frame   0x00000414       0xec C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans3.ltrans.o
+ .debug_frame   0x00000500      0x124 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans4.ltrans.o
+ .debug_frame   0x00000624       0x84 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans5.ltrans.o
+ .debug_frame   0x000006a8       0x38 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans6.ltrans.o
+ .debug_frame   0x000006e0       0x34 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans7.ltrans.o
+
+.debug_str      0x00000000     0x2dec
+ *(.debug_str)
+ .debug_str     0x00000000     0x1546 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans0.ltrans.o
+                               0x1625 (size before relaxing)
+ .debug_str     0x00001546      0x674 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans1.ltrans.o
+                                0xf44 (size before relaxing)
+ .debug_str     0x00001bba      0x503 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans2.ltrans.o
+                                0xf19 (size before relaxing)
+ .debug_str     0x000020bd      0x670 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans3.ltrans.o
+                               0x10d6 (size before relaxing)
+ .debug_str     0x0000272d      0x3a5 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans4.ltrans.o
+                                0xd44 (size before relaxing)
+ .debug_str     0x00002ad2      0x231 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans5.ltrans.o
+                               0x10e8 (size before relaxing)
+ .debug_str     0x00002d03       0x63 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans6.ltrans.o
+                                0x531 (size before relaxing)
+ .debug_str     0x00002d66       0x86 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans7.ltrans.o
+                                0x4ea (size before relaxing)
+
+.debug_loc      0x00000000     0x3884
+ *(.debug_loc)
+ .debug_loc     0x00000000      0x3f0 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans0.ltrans.o
+ .debug_loc     0x000003f0      0xb71 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans1.ltrans.o
+ .debug_loc     0x00000f61      0xbe6 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans2.ltrans.o
+ .debug_loc     0x00001b47     0x139b C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans3.ltrans.o
+ .debug_loc     0x00002ee2      0x6dc C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans4.ltrans.o
+ .debug_loc     0x000035be      0x25a C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans5.ltrans.o
+ .debug_loc     0x00003818       0x20 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans6.ltrans.o
+ .debug_loc     0x00003838       0x4c C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans7.ltrans.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x00000000      0x800
+ *(.debug_ranges)
+ .debug_ranges  0x00000000      0x2c0 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans0.ltrans.o
+ .debug_ranges  0x000002c0      0x170 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans1.ltrans.o
+ .debug_ranges  0x00000430       0x60 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans2.ltrans.o
+ .debug_ranges  0x00000490       0x88 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans3.ltrans.o
+ .debug_ranges  0x00000518      0x1b8 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans4.ltrans.o
+ .debug_ranges  0x000006d0      0x110 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans5.ltrans.o
+ .debug_ranges  0x000007e0       0x10 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans6.ltrans.o
+ .debug_ranges  0x000007f0       0x10 C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans7.ltrans.o
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+LOAD ./host_drv/socket/source/socket.o
+LOAD C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans0.ltrans.o
+LOAD C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans1.ltrans.o
+LOAD C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans2.ltrans.o
+LOAD C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans3.ltrans.o
+LOAD C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans4.ltrans.o
+LOAD C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans5.ltrans.o
+LOAD C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans6.ltrans.o
+LOAD C:\Users\ahmed.ismail\AppData\Local\Temp\ccaaOxnK.ltrans7.ltrans.o
+LOAD c:/cortus-ide_new/toolchain/bin/../lib/gcc/aps/4.7.3/../../../../aps/lib/aps1\libg.a
+LOAD c:/cortus-ide_new/toolchain/bin/../lib/gcc/aps/4.7.3/../../../../aps/lib/aps1\libc.a
+LOAD c:/cortus-ide_new/toolchain/bin/../lib/gcc/aps/4.7.3/../../../../aps/lib/aps1\libgloss.a
+LOAD c:/cortus-ide_new/toolchain/bin/../lib/gcc/aps/4.7.3/aps1\libgcc.a
+LOAD ./host_drv/driver/source/m2m_ate_mode.o
+LOAD ./host_drv/driver/source/m2m_crypto.o
+LOAD ./host_drv/driver/source/m2m_hif_crt.o
+LOAD ./host_drv/driver/source/m2m_ota.o
+LOAD ./host_drv/driver/source/m2m_periph.o
+LOAD ./host_drv/driver/source/m2m_wifi.o
+LOAD ./host_drv/driver/source/nmasic_crt.o
+LOAD ./host_drv/driver/source/nmbus_crt.o
+LOAD ./host_drv/driver/source/nmdrv_crt.o
+LOAD ./host_drv/common/source/nm_common.o
+LOAD ./host_aps/led_btn_demo/led_btn_demo.o
+LOAD ./host_aps/hash/Hash.o
+LOAD ./host_aps/growl/source/growl.o
+LOAD ./cortus_cmn/cortus_periph/source/nmi_btn.o
+LOAD ./cortus_cmn/cortus_periph/source/nmi_gpio.o
+LOAD ./cortus_cmn/cortus_periph/source/nmi_i2c.o
+LOAD ./cortus_cmn/cortus_periph/source/nmi_pwm.o
+LOAD ./cortus_cmn/cortus_periph/source/nmi_spi.o
+LOAD ./cortus_cmn/cortus_periph/source/nmi_uart.o
+LOAD ./cortus_cmn/cortus_iface/crt_iface.o
+LOAD ./app_src/app_main.o
+LOAD ./app_src/main_crt0.o
+LOAD c:/cortus-ide_new/toolchain/bin/../lib/gcc/aps/4.7.3/../../../../aps/lib/aps1\libstdc++.a
+LOAD c:/cortus-ide_new/toolchain/bin/../lib/gcc/aps/4.7.3/../../../../aps/lib/aps1\libm.a
+LOAD c:/cortus-ide_new/toolchain/bin/../lib/gcc/aps/4.7.3/../../../../aps/lib/aps1\libg.a
+LOAD c:/cortus-ide_new/toolchain/bin/../lib/gcc/aps/4.7.3/../../../../aps/lib/aps1\libc.a
+LOAD c:/cortus-ide_new/toolchain/bin/../lib/gcc/aps/4.7.3/../../../../aps/lib/aps1\libgloss.a
+LOAD c:/cortus-ide_new/toolchain/bin/../lib/gcc/aps/4.7.3/aps1\libgcc.a
+OUTPUT(cortus_app.jtag aps)

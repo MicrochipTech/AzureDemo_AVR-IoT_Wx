@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="driver">
+      <UniqueIdentifier>{9b44d54f-81f3-41c7-b68e-58e21b9831af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="driver\source">
+      <UniqueIdentifier>{ef1a6907-8696-473b-9b6b-b30fa5e5b99b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="driver\include">
+      <UniqueIdentifier>{60376443-8508-4d0a-a699-020a77bd2c65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bus_wrapper">
+      <UniqueIdentifier>{e38b6aab-27ef-429f-b652-2259aa968263}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bus_wrapper\include">
+      <UniqueIdentifier>{d163bb9a-5201-4e6f-9584-0ab9c9225b8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bus_wrapper\source">
+      <UniqueIdentifier>{4c91584b-2698-4ffe-bfca-1782e5343e96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bsp">
+      <UniqueIdentifier>{9dccf0bf-d512-40f6-abbf-8491d448490e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bsp\include">
+      <UniqueIdentifier>{092eb5d2-813c-42f7-9a2b-34475e4c1551}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bsp\source">
+      <UniqueIdentifier>{634b2cfb-a483-4c11-adbc-6a7c8ff5e030}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{b0f480d3-792b-450f-9236-099d81715f68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\include">
+      <UniqueIdentifier>{f22ba433-b815-41e4-b8a2-f3066cd07093}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\source">
+      <UniqueIdentifier>{30b59ac0-c66a-470c-99b4-206eb5f6056a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="socket">
+      <UniqueIdentifier>{ee2025db-c46c-4eff-8c52-ee263367b78b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="socket\include">
+      <UniqueIdentifier>{b9a38abc-be72-4a84-b0c6-c7ed9a78d498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="socket\source">
+      <UniqueIdentifier>{09cd8be8-6c9b-4145-ba77-63b32624a615}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="growl">
+      <UniqueIdentifier>{cb96c110-63c9-48a4-9721-8ab3223f9c0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="growl\source">
+      <UniqueIdentifier>{5212b1dd-61c9-492c-b1f6-d01c5f1991ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="growl\include">
+      <UniqueIdentifier>{379a56d7-9248-43f2-bcde-d22285c80d10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test_config">
+      <UniqueIdentifier>{23be5e86-80c3-4365-9179-d8b0b82cb672}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="udp_test">
+      <UniqueIdentifier>{23eb4af5-38e4-41f0-9235-accba4d7d7f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="led_btn_demo">
+      <UniqueIdentifier>{b7dacc1a-a158-4ce0-a827-ae75764fba99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ethernet_mode">
+      <UniqueIdentifier>{52f3365d-b8ba-4c8e-959a-15b8b9c064ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="http_client">
+      <UniqueIdentifier>{450d9fa3-d4ec-4fae-b5a2-3459220f6a20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="spi_flash">
+      <UniqueIdentifier>{7e1b2130-aa35-4287-95cb-fe4f378948c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="spi_flash\include">
+      <UniqueIdentifier>{0044fae6-e2d1-4fc0-8741-61c69d4e2ade}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="spi_flash\source">
+      <UniqueIdentifier>{4eb28ab5-08d5-4aab-96b1-6c1558e97875}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\host_drv\driver\source\m2m_hif.c">
+      <Filter>driver\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\host_drv\driver\source\m2m_ota.c">
+      <Filter>driver\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\host_drv\driver\source\m2m_periph.c">
+      <Filter>driver\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\host_drv\driver\source\m2m_wifi.c">
+      <Filter>driver\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\host_drv\driver\source\nmasic.c">
+      <Filter>driver\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\host_drv\driver\source\nmbus.c">
+      <Filter>driver\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\host_drv\driver\source\nmdrv.c">
+      <Filter>driver\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\host_drv\driver\source\nmi2c.c">
+      <Filter>driver\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\host_drv\driver\source\nmspi.c">
+      <Filter>driver\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\host_drv\driver\source\nmuart.c">
+      <Filter>driver\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\host_drv\bus_wrapper\source\aardvarc\aardvark.c">
+      <Filter>bus_wrapper\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\host_drv\bus_wrapper\source\nm_bus_wrapper_aardvarc.c">
+      <Filter>bus_wrapper\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\host_drv\bus_wrapper\source\nm_bus_wrapper_win_uart.c">
+      <Filter>bus_wrapper\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\host_drv\bsp\source\nm_bsp_win32.c">
+      <Filter>bsp\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\host_drv\common\source\nm_common.c">
+      <Filter>common\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\host_drv\socket\source\socket.c">
+      <Filter>socket\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\host_apps\growl\source\growl.c">
+      <Filter>growl\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\host_apps\udp_test\udp_demo.c">
+      <Filter>udp_test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\host_apps\udp_test\udp_test.c">
+      <Filter>udp_test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\host_apps\led_btn_demo\led_btn_demo.c">
+      <Filter>led_btn_demo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ethernet_mode\ethernet_mode.c">
+      <Filter>ethernet_mode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\host_apps\http_client\http_client.c">
+      <Filter>http_client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\host_drv\spi_flash\source\spi_flash.c">
+      <Filter>spi_flash\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\http_client_test.c" />
+    <ClCompile Include="..\main.c" />
+    <ClCompile Include="..\lm_spcomputation.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\host_drv\driver\source\m2m_hif.h">
+      <Filter>driver\source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\host_drv\driver\source\nmasic.h">
+      <Filter>driver\source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\host_drv\driver\source\nmbus.h">
+      <Filter>driver\source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\host_drv\driver\source\nmdrv.h">
+      <Filter>driver\source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\host_drv\driver\source\nmi2c.h">
+      <Filter>driver\source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\host_drv\driver\source\nmspi.h">
+      <Filter>driver\source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\host_drv\driver\source\nmuart.h">
+      <Filter>driver\source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\host_drv\driver\include\m2m_ota.h">
+      <Filter>driver\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\host_drv\driver\include\m2m_periph.h">
+      <Filter>driver\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\host_drv\driver\include\m2m_types.h">
+      <Filter>driver\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\host_drv\driver\include\m2m_wifi.h">
+      <Filter>driver\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\host_drv\bus_wrapper\include\nm_bus_wrapper.h">
+      <Filter>bus_wrapper\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\host_drv\bsp\include\nm_bsp.h">
+      <Filter>bsp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\host_drv\bsp\include\nm_bsp_internal.h">
+      <Filter>bsp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\host_drv\bsp\include\nm_bsp_win32.h">
+      <Filter>bsp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\host_drv\common\include\nm_common.h">
+      <Filter>common\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\host_drv\common\include\nm_debug.h">
+      <Filter>common\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\host_drv\socket\include\socket.h">
+      <Filter>socket\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\host_drv\socket\source\socket_internal.h">
+      <Filter>socket\source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\host_apps\growl\include\growl.h">
+      <Filter>growl\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\test_config\m2m_test_config.h">
+      <Filter>test_config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\host_apps\udp_test\udp_demo.h">
+      <Filter>udp_test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\host_apps\udp_test\udp_test.h">
+      <Filter>udp_test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\host_apps\led_btn_demo\led_btn_demo.h">
+      <Filter>led_btn_demo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ethernet_mode\ethernet_mode.h">
+      <Filter>ethernet_mode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\host_apps\http_client\http_client.h">
+      <Filter>http_client</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\host_drv\spi_flash\include\spi_flash.h">
+      <Filter>spi_flash\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lm_spcomputation.h" />
+  </ItemGroup>
+</Project>

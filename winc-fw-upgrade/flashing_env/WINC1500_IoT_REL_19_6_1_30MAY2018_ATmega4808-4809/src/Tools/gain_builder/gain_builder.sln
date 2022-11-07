@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gain_builder", "gain_builder\gain_builder.vcxproj", "{B8424E57-E57D-4637-9459-FCB3A5FEF873}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug_I2C|Win32 = Debug_I2C|Win32
+		Debug_UART|Win32 = Debug_UART|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8424E57-E57D-4637-9459-FCB3A5FEF873}.Debug_I2C|Win32.ActiveCfg = Debug_I2C|Win32
+		{B8424E57-E57D-4637-9459-FCB3A5FEF873}.Debug_I2C|Win32.Build.0 = Debug_I2C|Win32
+		{B8424E57-E57D-4637-9459-FCB3A5FEF873}.Debug_UART|Win32.ActiveCfg = Debug_UART|Win32
+		{B8424E57-E57D-4637-9459-FCB3A5FEF873}.Debug_UART|Win32.Build.0 = Debug_UART|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

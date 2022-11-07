@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="driver">
+      <UniqueIdentifier>{0afcaec2-97ec-4c2f-81f6-817d31ab9160}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bus_wrapper">
+      <UniqueIdentifier>{4cdb117a-54b6-4f10-9159-8ae4d92e3fff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bus_wrapper\include">
+      <UniqueIdentifier>{1bd4356e-5599-402f-a62f-41ace01e49e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bus_wrapper\source">
+      <UniqueIdentifier>{a88657a9-73f5-4497-9b8e-ecaddf3e18a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bsp">
+      <UniqueIdentifier>{da701930-22b2-423a-8751-826fae79fe34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bsp\include">
+      <UniqueIdentifier>{d1cf2529-9cd0-4ea6-9ec0-ab3f96100a00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bsp\source">
+      <UniqueIdentifier>{f3a2fa7c-2a5b-40e3-9fb0-d6a3b41b6d7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{c7607003-f079-4db1-9604-df408343ca7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\include">
+      <UniqueIdentifier>{18382643-c671-422a-b35c-17f7e922d4ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\source">
+      <UniqueIdentifier>{99c6f5b9-f85d-4fdd-b839-4b805e6fd094}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="spi_flash">
+      <UniqueIdentifier>{c1f32626-799e-4256-9266-1253f89c6673}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="programmer">
+      <UniqueIdentifier>{a66f0f02-0717-4ed1-9f7f-985d380e3ed3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="app_setup">
+      <UniqueIdentifier>{1b425deb-c466-4e51-9e5e-ad3b1056058e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\host_drv\driver\include\m2m_types.h">
+      <Filter>driver</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\host_drv\driver\source\nmasic.h">
+      <Filter>driver</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\host_drv\driver\source\nmbus.h">
+      <Filter>driver</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\host_drv\driver\source\nmi2c.h">
+      <Filter>driver</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\host_drv\driver\source\nmspi.h">
+      <Filter>driver</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\host_drv\driver\source\nmuart.h">
+      <Filter>driver</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\host_drv\bus_wrapper\include\nm_bus_wrapper.h">
+      <Filter>bus_wrapper\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\host_drv\bsp\include\nm_bsp.h">
+      <Filter>bsp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\host_drv\bsp\include\nm_bsp_win32.h">
+      <Filter>bsp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\host_drv\common\include\nm_common.h">
+      <Filter>common\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\host_drv\spi_flash\include\spi_flash.h">
+      <Filter>spi_flash</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\common\spi_flash_mapping\spi_flash_map.h">
+      <Filter>spi_flash</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\programmer\firmware_addresses.h">
+      <Filter>programmer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\programmer\programmer.h">
+      <Filter>programmer</Filter>
+    </ClInclude>
+    <ClInclude Include="app_setup.h">
+      <Filter>app_setup</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\host_drv\driver\source\nmasic.c">
+      <Filter>driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\host_drv\driver\source\nmbus.c">
+      <Filter>driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\host_drv\driver\source\nmi2c.c">
+      <Filter>driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\host_drv\driver\source\nmspi.c">
+      <Filter>driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\host_drv\driver\source\nmuart.c">
+      <Filter>driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\host_drv\bus_wrapper\source\aardvarc\aardvark.c">
+      <Filter>bus_wrapper\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\host_drv\bus_wrapper\source\nm_bus_wrapper_aardvarc.c">
+      <Filter>bus_wrapper\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\host_drv\bus_wrapper\source\nm_bus_wrapper_win_uart.c">
+      <Filter>bus_wrapper\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\host_drv\bsp\source\nm_bsp_win32.c">
+      <Filter>bsp\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\host_drv\common\source\nm_common.c">
+      <Filter>common\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\host_drv\spi_flash\source\spi_flash.c">
+      <Filter>spi_flash</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\programmer\programmer.c">
+      <Filter>programmer</Filter>
+    </ClCompile>
+    <ClCompile Include="app_setup.c">
+      <Filter>app_setup</Filter>
+    </ClCompile>
+    <ClCompile Include="..\main.c" />
+  </ItemGroup>
+</Project>

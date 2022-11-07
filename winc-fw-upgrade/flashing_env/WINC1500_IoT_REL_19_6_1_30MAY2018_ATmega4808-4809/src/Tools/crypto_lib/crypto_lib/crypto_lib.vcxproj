@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\firmware\wifi_v111\src\nmi_m2m\source\crypto\aes.c" />
+    <ClCompile Include="..\..\..\firmware\wifi_v111\src\nmi_m2m\source\crypto\aes_cbc.c" />
+    <ClCompile Include="..\..\..\firmware\wifi_v111\src\nmi_m2m\source\crypto\aes_gcm.c" />
+    <ClCompile Include="..\..\..\firmware\wifi_v111\src\nmi_m2m\source\crypto\bigint.c" />
+    <ClCompile Include="..\..\..\firmware\wifi_v111\src\nmi_m2m\source\crypto\hash.c" />
+    <ClCompile Include="..\..\..\firmware\wifi_v111\src\nmi_m2m\source\crypto\rsa.c" />
+    <ClCompile Include="..\..\..\firmware\wifi_v111\src\nmi_m2m\source\tls\x509\asn1.c" />
+    <ClCompile Include="..\..\..\firmware\wifi_v111\src\nmi_m2m\source\tls\x509\x509_cert.c" />
+    <ClCompile Include="..\crypto_lib_api.c" />
+    <ClCompile Include="..\source\crypto_port.c" />
+    <ClCompile Include="..\source\rsa_key.c" />
+    <ClCompile Include="..\source\tls_buffer_manager.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\firmware\wifi_v111\src\nmi_m2m\source\tls\x509\asn1.h" />
+    <ClInclude Include="..\..\..\firmware\wifi_v111\src\nmi_m2m\source\tls\x509\x509_cert.h" />
+    <ClInclude Include="..\include\crypto_lib_api.h" />
+    <ClInclude Include="..\source\m2m_types.h" />
+    <ClInclude Include="..\source\nmi_m2m.h" />
+    <ClInclude Include="..\source\tls_buffer_manager.h" />
+    <ClInclude Include="..\source\tls_port.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{0844B20D-4949-4529-8685-39501E02100E}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>crypto_lib</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)\lib\</OutDir>
+    <TargetName>crypto</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG__;_LIB;_CRT_SECURE_NO_WARNINGS;__CRYPTO_AES_GCM_SUPPORT__;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\..\common\root_cert;..\..\..\firmware\wifi_v111\src\nmi_m2m\source\tls\x509\;..\..\..\common\host_fw\;..\..\..\host_drv;..\source;..\include;..\..\..\firmware\wifi_v111\src\nmi_m2m\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsC</CompileAs>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <DisableSpecificWarnings>4244;</DisableSpecificWarnings>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
