@@ -44,17 +44,17 @@
 
 6.	Launch the Microchip Studio IDE. A picture of the AVR-IoT development board should appear in its own dedicated window within the IDE.
 
-	![Kit Window](./img/Kit_Window.PNG)
+	![Kit Window](./img/Kit_Window.png)
 
 7.	Program the *`avr.iot-azure-winc-provision.atsln`* project (located in the *“AVR-IoT_Azure_Demo\winc-provision”* directory) onto the AVR-IoT board.
 
 
-	![Studio Step 01](./img/Studio_Step_01.PNG)
-	![Studio Step 02](./img/Studio_Step_02.PNG)
-	![Studio Step 03](./img/Studio_Step_03.PNG)
-	![Studio Step 04](./img/Studio_Step_04.PNG)
-	![Studio Step 05](./img/Studio_Step_05.PNG)
-	![Studio Step 06](./img/Studio_Step_06.PNG)
+	![Studio Step 01](./img/Studio_Step_01.png)
+	![Studio Step 02](./img/Studio_Step_02.png)
+	![Studio Step 03](./img/Studio_Step_03.png)
+	![Studio Step 04](./img/Studio_Step_04.png)
+	![Studio Step 05](./img/Studio_Step_05.png)
+	![Studio Step 06](./img/Studio_Step_06.png)
 
 8. Open a Command Prompt or PowerShell window (run as an Administrator).
 
@@ -68,7 +68,7 @@
 	pip install -r .\requirements.txt
 	pip freeze
     ```
-	![Python and Py Versions](./img/Python_Py_Versions.PNG)
+	![Python and Py Versions](./img/Python_Py_Versions.png)
 
 11. Execute the following Python script on the command line:
     ```shell
@@ -84,7 +84,7 @@
 
 	NOTES: When asked to enter the COM port of the device, use any terminal emulator program (e.g. TeraTerm) or Windows Device Manager to figure out the COM port which should be typed at the prompt.
 
-	![Create Device and Provision Output](./img/Device_Prov_Script.PNG)
+	![Create Device and Provision Output](./img/Device_Prov_Script.png)
 
 13.	Copy (save) the device ID from the output of the PowerShell window.
 
