@@ -67,6 +67,7 @@
 	python -m pip install --upgrade pip
 	pip install -r .\requirements.txt
 	pip freeze
+	pip --version
     ```
 	![Python and Py Versions](./img/Python_Py_Versions.png)
 
