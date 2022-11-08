@@ -36,30 +36,29 @@ Note: Make sure Python is functional before proceeding to the instructions.
 * Note: after redoing step 5, there’s no need to do step 6 again.
 7.	In the cloned repository, browse to *“AVR-IoT_Azure_Demo\winc-provision”*.
 8.	Program the *avr.iot-azure-winc-provision* project onto the AVR-IoT board.
-9. Launch a terminal emulator window and connect to the virtual COM port corresponding to the AVR-IoT development board.
-10. Open PowerShell as Administrator.
-11.	Go to repository location and browse *“AVR-IoT_Azure_Demo\scripts”*.
-12. Run `pip install -r .\requirements.txt`.
-13.	Run `create_and_verify_certs.ps1`.
-14.	Run `create_device_and_provision.ps1`.
-15.	Copy the device ID from the console (terminal emulator window).
+9. Open PowerShell as Administrator.
+10.	Go to repository location and browse *“AVR-IoT_Azure_Demo\scripts”*.
+11. Run `pip install -r .\requirements.txt`.
+12.	Run `create_and_verify_certs.ps1`.
+13.	Run `create_device_and_provision.ps1`.
+14.	Copy the device ID from the console (terminal emulator window).
 
 ![Device Name](./img/DeviceName.PNG)
 
-16.	Go to repository location and browse *“AVR-IoT_Azure_Demo\firmware”*.
-17.	Modify the credentials of the network, hub and device.
+15.	Go to repository location and browse *“AVR-IoT_Azure_Demo\firmware”*.
+16.	Modify the credentials of the network, hub and device.
 	1. Open *avr.iot-azure-demo.atsln* using the Microchip Studio IDE.
 	2. Browse to *“cloud”* folder and open *“cloud.h”* file.
 	3. Modify the network password and ssid.
-	4. Modify the COMMON_NAME with the value from step 15.
+	4. Modify the COMMON_NAME with the value from step 14.
 	5. Go to Azure portal and click on IoT Hub name. Copy the name from Hostname tab.
 	6. Modify the HOST_ENDPOINT with the value from step above.
-18. Program the *avr.iot-azure-demo* on the AVR-IoT board.
-19. Go to Azure Portal and open Cloud Shell.
+17. Program the *avr.iot-azure-demo* on the AVR-IoT board.
+18. Go to Azure Portal and open Cloud Shell.
 
 ![Cloud Schell Icon](./img/CloudSchell.PNG)
 
-20. Run `az extension add --name azure-cli-iot-ext`.
-21. Run `az iot hub monitor-events --hub-name {MyIoTHubName} --device-id {MyDevice}`.
+19. Run `az extension add --name azure-cli-iot-ext`.
+20. Run `az iot hub monitor-events --hub-name {MyIoTHubName} --device-id {MyDevice}`.
 	Note: replace *{MyIoTHubName}* and *{MyDevice}* with their actual names.
-22. For better visualization of data, go to repository location, browse *“AVR-IoT_Azure_Demo\scripts”*  and run  `create_web_app.ps1`.
+21. For better visualization of data, go to repository location, browse *“AVR-IoT_Azure_Demo\scripts”*  and run  `create_web_app.ps1`.
