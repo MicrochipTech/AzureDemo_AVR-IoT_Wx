@@ -245,97 +245,54 @@
       "writable": true
     },
     {
-      "@type": [
-        "Property",
-        "Temperature"
-      ],
-      "name": "maxTempSinceLastReboot",
-      "schema": "double",
-      "unit": "degreeCelsius",
-      "displayName": {
-        "en": "Max temperature since last reboot"
-      },
-      "description": "Returns the max temperature since last device reboot"
-    },
-    {
       "@type": "Command",
-      "name": "reboot",
-      "displayName": {
-        "en": "Reboot"
+      "description": {
+          "en": "Send a text message for the AVR-IoT to receive and process."
       },
-      "description": "Reboot PiC IoT with the specified delay.  e.g. PT5S for 5 seconds.",
+      "displayName": {
+          "en": "Receive Message"
+      },
+      "name": "recvMsg",
       "request": {
-        "name": "delay",
-        "schema": "duration",
-        "displayName": "Reboot Delay",
-        "description": "Number of seconds to delay reboot. e.g. PT5S for 5 seconds."
+          "@type": "CommandPayload",
+          "description": {
+              "en": "Text message to send to AVR-IoT"
+          },
+          "displayName": {
+              "en": "Message"
+          },
+          "name": "payload",
+          "schema": {
+              "@type": "Object",
+              "fields": [
+                  {
+                      "displayName": {
+                          "en": "String to send"
+                      },
+                      "name": "recvMsgString",
+                      "schema": "string"
+                  }
+              ]
+          }
       },
       "response": {
-        "name": "response",
-        "displayName": "Response for command",
-        "schema": {
-          "@type": "Object",
-          "fields": [
-            {
-              "name": "status",
-              "displayName": "Message from reboot handler.",
-              "schema": "string"
-            },
-            {
-              "name": "delay",
-              "displayName": "Number of seconds to delay the reboot.",
-              "schema": "integer"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "@type": "Command",
-      "name": "getMaxMinReport",
-      "displayName": {
-        "en": "Get temperature Max-Min report"
-      },
-      "description": "This command returns the max, min and average temperature from the specified time to the current time",
-      "request": {
-        "name": "since",
-        "displayName": "Since",
-        "description": "The start period to return the max-min report from",
-        "schema": "dateTime"
-      },
-      "response": {
-        "name": "tempReport",
-        "displayName": "Temperature Report",
-        "schema": {
-          "@type": "Object",
-          "fields": [
-            {
-              "name": "maxTemp",
-              "displayName": "Max temperature",
-              "schema": "double"
-            },
-            {
-              "name": "minTemp",
-              "displayName": "Min temperature",
-              "schema": "double"
-            },
-            {
-              "name": "avgTemp",
-              "displayName": "Average Temperature",
-              "schema": "double"
-            },
-            {
-              "name": "startTime",
-              "displayName": "Start Time",
-              "schema": "dateTime"
-            },
-            {
-              "name": "endTime",
-              "displayName": "End Time",
-              "schema": "dateTime"
-            }
-          ]
-        }
+          "@type": "CommandPayload",
+          "displayName": {
+              "en": "Response for command"
+          },
+          "name": "response",
+          "schema": {
+              "@type": "Object",
+              "fields": [
+                  {
+                      "displayName": {
+                          "en": "Message from receive message handler"
+                      },
+                      "name": "status",
+                      "schema": "string"
+                  }
+              ]
+          }
       }
     }
   ]
