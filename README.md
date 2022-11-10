@@ -80,37 +80,41 @@
 
 	![Hub Step 01](./img/Hub_Step_01_edit.png)
 
-13. Enter/paste your Device ID and select `X.509 CA Signed` for `Authentication type`, then hit `Save`. Confirm that your new device has been successfully registered with your IoT Hub.
+13. Enter/paste your Device ID and select `X.509 CA Signed` for `Authentication type`, then hit the `Save` button.
 
-	![Hub Step 02a](./img/Hub_Step_02a.png)	
-	![Hub Step 02b](./img/Hub_Step_02b.png)	
+	![Hub Step 02a](./img/Hub_Step_02a_edit.png)	
 
-14. Using the left-hand navigation pane, click on `Certificates` under `Security settings`, then click on `+ Add`
+14. Confirm that your new device has been successfully registered with your IoT Hub.
+
+	![Hub Step 02b](./img/Hub_Step_02b_edit.png)	
+
+15. Using the left-hand navigation pane, click on `Certificates` under `Security settings`, then click on the `+ Add` icon.
 
 	![Hub Step 03](./img/Hub_Step_03_edit.png)
 
-15. Type in any arbitrary Certificate name (e.g. your initials), upload the `signer-ca.pem` file that was generated in a previous step, check the box for "Set certificate status to verified on upload", then click on `Save`. The uploaded signer CA certificate can now be used by your IoT Hub to authenticate devices which have a leaf certificate derived from the signer CA certificate.
+16. Type in any arbitrary Certificate name (e.g. your initials), upload the `signer-ca.pem` file that was generated in a previous step, check the box for "Set certificate status to verified on upload", then click on `Save`. The uploaded signer CA certificate can now be used by your IoT Hub to authenticate devices which have a leaf certificate derived from the signer CA certificate.
 
-	![Hub Step 04](./img/Hub_Step_04.png)
+	![Hub Step 04](./img/Hub_Step_04_edit.png)
 	![Hub Step 05](./img/Hub_Step_05.png)
 
-16. Power cycle the AVR-IoT development board by unplugging and then plugging the micro-USB cable back into the board's USB connector. After a few moments, the Blue (WIFI) and Green (CONN) LEDs should turn constantly ON while the Yellow (DATA) LED blinks - signifying that the board has connected to the IoT Hub and is periodically sending data to the Cloud.
+17. Power cycle the AVR-IoT development board by unplugging and then plugging the micro-USB cable back into the board's USB connector. After a few moments, the Blue (WIFI) and Green (CONN) LEDs should turn constantly ON while the Yellow (DATA) LED blinks - signifying that the board has connected to the IoT Hub and is periodically sending data to the Cloud.
 
-17. In your [Azure Portal](https://portal.azure.com/) account, using the left-hand navigation pane, click on `Devices` under `Device management`, then click on your device name
+18. In your [Azure Portal](https://portal.azure.com/) account, using the left-hand navigation pane, click on `Devices` under `Device management`, then click on your device name.
 
 	![Hub Step 06](./img/Hub_Step_06_edit.png)	
 
-18. Click on the `Device Twin` icon, then confirm that `"connectionState"` = **"Connected"**
+19. Click on the `Device Twin` icon, then confirm that `"connectionState"` = **"Connected"**.
 
 	![Hub Step 07](./img/Hub_Step_07_edit.png)	
 	![Hub Step 08](./img/Hub_Step_08_edit.png)
 
-19. Monitor the telemetry messages being sent from the device to your IoT Hub. Open a Command Prompt or PowerShell window and execute the following command line:
+20. Monitor the telemetry events being sent from the device to your IoT Hub. Open a Command Prompt or PowerShell window and execute the following command line:
+
 	```shell
 	az iot hub monitor-events --hub-name {MyIoTHubName} --device-id {MyDeviceID}
 	```
 	Note: replace *{MyIoTHubName}* and *{MyDeviceID}* with their actual names
 
-20. Each telemetry event has a payload field containing a value ("L") corresponding to the on-board light sensor (lumens) and a second value ("T") corresponding to the on-board temperature sensor (deg C). Increase the ambient light source shining directly on top of the board and observe that the "L" value increases substantially compared to before the additional light source was applied. Similarly, if you are able to change the ambient temperature of the board easily, you can also see the "T" value change accordingly. When finished, hit [CTRL-Z] to exit the monitoring process.
+21. Each telemetry event has a payload field containing a value ("L") corresponding to the on-board light sensor (lumens) and a second value ("T") corresponding to the on-board temperature sensor (deg C). Increase the ambient light source shining directly on top of the board and observe that the "L" value increases substantially compared to before the additional light source was applied. Similarly, if you are able to change the ambient temperature of the board easily, you can also see the "T" value change accordingly. When finished, hit [CTRL-Z] to exit the monitoring process.
 
 	![Monitor Step 01](./img/Monitor_Step_01_edit.png)
