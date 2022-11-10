@@ -111,7 +111,7 @@
 	```
 	Note: replace *{MyIoTHubName}* and *{MyDeviceID}* with their actual names
 
-20. Each telemetry message contains a value ("L") corresponding to the on-board light sensor (lumens) and a second value ("T") corresponding to the on-board temperature sensor (deg C). Increase the ambient light source shining directly on top of the board and observe that the "L" value increases substantially compared to before the additional light source was applied. When finished, hit [CTRL-Z] to exit the monitoring process.
+20. Each telemetry event has a payload field containing a value ("L") corresponding to the on-board light sensor (lumens) and a second value ("T") corresponding to the on-board temperature sensor (deg C). Increase the ambient light source shining directly on top of the board and observe that the "L" value increases substantially compared to before the additional light source was applied. Similarly, if you are able to change the ambient temperature of the board easily, you can also see the "T" value change accordingly. When finished, hit [CTRL-Z] to exit the monitoring process.
 
 	![Monitor Step 01](./img/Monitor_Step_01.png)
-	
+
