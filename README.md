@@ -59,7 +59,7 @@
 	- Modify the SSID and network password (PSK) for your wireless Access Point.
 		![Studio Step 02c](./img/Studio_Step_02c.png)	
 	- Modify the `COMMON_NAME` with your specific device ID string which was discovered in a previous step.
-		![Studio Step 02d](./img/Studio_Step_02d.png)
+    <img src=".//img/Studio_Step_02d.png" width=600/>
 	- Go to the [Azure Portal](https://portal.azure.com/) and click on your IoT Hub name.
 		![Studio Step 02de](./img/Studio_Step_02de_edit.png)
 	- Copy the name shown in the IoT Hub's `Hostname` field by clicking on the icon to the right of the string.
@@ -78,11 +78,11 @@
 
 12. Go back into your [Azure Portal](https://portal.azure.com/) account and click on your IoT Hub. Using the left-hand navigation pane, click on `Devices` and then `+ Add Device`
 
-	![Hub Step 01](./img/Hub_Step_01_edit.png)
+	<img src=".//img/Hub_Step_01.png" width=500/>
 
 13. Enter/paste your Device ID and select `X.509 CA Signed` for `Authentication type`, then hit the `Save` button.
 
-	![Hub Step 02a](./img/Hub_Step_02a_edit.png)	
+    <img src=".//img/Hub_Step_02a.png" width=300/>
 
 14. Confirm that your new device has been successfully registered with your IoT Hub.
 
@@ -90,12 +90,12 @@
 
 15. Using the left-hand navigation pane, click on `Certificates` under `Security settings`, then click on the `+ Add` icon.
 
-	![Hub Step 03](./img/Hub_Step_03_edit.png)
+    <img src=".//img/Hub_Step_03_edit.png" width=400/>
 
 16. Type in any arbitrary Certificate name (e.g. your initials), upload the `signer-ca.pem` file that was generated in a previous step, check the box for "Set certificate status to verified on upload", then click on `Save`. The uploaded signer CA certificate can now be used by your IoT Hub to authenticate devices which have a leaf certificate derived from the signer CA certificate.
 
-	![Hub Step 04](./img/Hub_Step_04_edit.png)
-	![Hub Step 05](./img/Hub_Step_05.png)
+	<img src=".//img/Hub_Step_04.png" width=400/>
+	<img src=".//img/Hub_Step_05.png" width=700/>
 
 17. Power cycle the AVR-IoT development board by unplugging and then plugging the micro-USB cable back into the board's USB connector. After a few moments, the Blue (WIFI) and Green (CONN) LEDs should turn constantly ON while the Yellow (DATA) LED blinks - signifying that the board has connected to the IoT Hub and is periodically sending data to the Cloud.
 
