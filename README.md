@@ -54,12 +54,12 @@
 	- Open the *`avr.iot-azure-demo.atsln`* project located in the *`AVR-IoT_Azure_Demo\firmware`* folder.
 		![Studio Step 01](./img/Studio_Step_01.png)
 		![Studio Step 02a](./img/Studio_Step_02a.png)
-	- In the Solution Explorer window, expand the *“cloud”* sub-folder and open the `cloud.h` header file by double-clicking on it.
+	- In the Solution Explorer window, expand the *"cloud"* sub-folder and double-click on `cloud.h`.
 		![Studio Step 02b](./img/Studio_Step_02b.png)
 	- Modify the SSID and network password (PSK) for your wireless Access Point.
 		![Studio Step 02c](./img/Studio_Step_02c.png)	
-	- Modify the `COMMON_NAME` with your specific device ID string which was discovered in a previous step.
-    <img src=".//img/Studio_Step_02d.png" width=600/>
+	- Modify the `COMMON_NAME` with your device ID string which was discovered in a previous step.
+		![Studio Step 02d](./img/Studio_Step_02d.png)
 	- Go to the [Azure Portal](https://portal.azure.com/) and click on your IoT Hub name.
 		![Studio Step 02de](./img/Studio_Step_02de_edit.png)
 	- Copy the name shown in the IoT Hub's `Hostname` field by clicking on the icon to the right of the string.
@@ -87,6 +87,7 @@
 14. Confirm that your new device has been successfully registered with your IoT Hub.
 
 	![Hub Step 02b](./img/Hub_Step_02b_edit.png)	
+	<img src=".//img/Hub_Step_02b.png" width=400/>
 
 15. Using the left-hand navigation pane, click on `Certificates` under `Security settings`, then click on the `+ Add` icon.
 
@@ -101,7 +102,7 @@
 
 18. In your [Azure Portal](https://portal.azure.com/) account, using the left-hand navigation pane, click on `Devices` under `Device management`, then click on your device name.
 
-	![Hub Step 06](./img/Hub_Step_06_edit.png)	
+	![Hub Step 06](./img/Hub_Step_06_edit.png)
 
 19. Click on the `Device Twin` icon, then confirm that `"connectionState"` = **"Connected"**.
 
